@@ -101,6 +101,12 @@ h1, h2, h3, h4, h5, h6 {
   border-color: rgba(255, 255, 255, 0.2);
 }
 
+.btn-sm {
+  padding: 6px 14px !important;
+  font-size: 0.8rem !important;
+  border-radius: 8px !important;
+}
+
 /* Badges */
 .badge {
   padding: 4px 12px;
@@ -130,6 +136,43 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(16, 185, 129, 0.15);
   color: #34d399;
   border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* PDF Status & Disclaimer Banners */
+.pdf-status-banner {
+  border-radius: 14px;
+  padding: 14px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(12px);
+  transition: all 0.3s ease;
+}
+
+.pdf-status-banner.custom-active {
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  color: #ecfdf5;
+  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.15);
+}
+
+.pdf-status-banner.disclaimer-active {
+  background: rgba(245, 158, 11, 0.12);
+  border: 1px solid rgba(245, 158, 11, 0.4);
+  color: #fffbeb;
+  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.15);
+}
+
+.pdf-status-banner .status-icon {
+  font-size: 1.4rem;
+}
+
+.pdf-status-banner .sub-text {
+  font-size: 0.82rem;
+  opacity: 0.88;
+  margin-top: 3px;
 }
 
 /* Grid Layouts */

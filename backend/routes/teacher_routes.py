@@ -31,6 +31,26 @@ def upload_unit():
         pdf_path = os.path.join(UPLOADS_DIR, filename)
         pdf_file.save(pdf_path)
 
+    # Validate PDF / Raw Text content against selected Subject & Unit
+    is_valid, validation_msg, detected_info = PDFProcessor.validate_pdf_content(
+        pdf_path=pdf_path,
+        selected_subject=subject,
+        selected_unit_number=unit_number,
+        raw_text=raw_text
+    )
+
+    if not is_valid:
+        if pdf_path and os.path.exists(pdf_path):
+            try:
+                os.remove(pdf_path)
+            except Exception:
+                pass
+        return jsonify({
+            "status": "error",
+            "message": validation_msg,
+            "detected_info": detected_info
+        }), 400
+
     # Analyze PDF content & extract topics + questions
     extracted_data = PDFProcessor.analyze_unit_content(pdf_path, subject, unit_number, raw_text)
 
