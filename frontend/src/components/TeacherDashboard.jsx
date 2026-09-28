@@ -44,6 +44,27 @@ export default function TeacherDashboard({ subject, user, onOpenLogin }) {
   // Class Analytics State
   const [analytics, setAnalytics] = useState(null);
 
+  const loadQuestionPaperForIa = async (targetIa) => {
+    setLoading(true);
+    try {
+      const examTitle = targetIa.includes('Assessment') ? targetIa : `Internal Assessment ${targetIa.split(' ')[1] || '1'}`;
+      const canonicalIa = targetIa.includes('IA') ? targetIa : `IA ${targetIa.split(' ')[2] || '1'}`;
+      const res = await fetchQuestionPaper(subject, examTitle, canonicalIa);
+      if (res.question_paper?.questions && res.question_paper.questions.length > 0) {
+        setQuestionsInput(res.question_paper.questions);
+      } else {
+        const genRes = await generatePaperFromPDF(subject, canonicalIa, extractedContent?.topics || [], unitNumber);
+        if (genRes.question_paper?.questions) {
+          setQuestionsInput(genRes.question_paper.questions);
+        }
+      }
+    } catch (err) {
+      console.error("Error loading question paper:", err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   useEffect(() => {
     loadClassAnalytics();
     loadExtractedTopicsForUnit(unitNumber);
@@ -52,8 +73,10 @@ export default function TeacherDashboard({ subject, user, onOpenLogin }) {
   useEffect(() => {
     if (activeStep === 2) {
       loadQuestionPaperForIa(iaType);
+    } else if (activeStep === 3) {
+      loadQuestionPaperForIa(marksIaType);
     }
-  }, [activeStep, iaType, subject]);
+  }, [activeStep, iaType, marksIaType, subject]);
 
   useEffect(() => {
     if (showAnalyzerModal) {
@@ -93,7 +116,7 @@ export default function TeacherDashboard({ subject, user, onOpenLogin }) {
   const handlePdfUpload = async (e) => {
     e.preventDefault();
     setLoading(true);
-    setUploadStatus('Parsing PDF & extracting unit topics, subtopics, and key concepts...');
+    setUploadStatus('Parsing PDF & validating subject and unit content...');
     try {
       const formData = new FormData();
       formData.append('subject', subject);
@@ -102,6 +125,10 @@ export default function TeacherDashboard({ subject, user, onOpenLogin }) {
         formData.append('unit_pdf', pdfFile);
       }
       const res = await uploadUnitPDF(formData);
+      if (res.status === 'error' || res.message?.includes('Mismatch')) {
+        setUploadStatus(`${res.message}`);
+        return;
+      }
       setUploadStatus(`✅ ${res.message}`);
       setExtractedContent(res.unit_data);
 
@@ -119,7 +146,7 @@ export default function TeacherDashboard({ subject, user, onOpenLogin }) {
 
       loadClassAnalytics();
     } catch (err) {
-      setUploadStatus(`✕ Upload failed: ${err.message}`);
+      setUploadStatus(`✕ Upload error: ${err.message}`);
     } finally {
       setLoading(false);
     }
@@ -344,6 +371,39 @@ Q8a. Deploying deep neural network architectures into enterprise production pipe
       {uploadStatus && (
         <div style={{ background: 'rgba(99, 102, 241, 0.15)', border: '1px solid var(--primary)', borderRadius: '10px', padding: '12px 16px', color: '#fff', fontSize: '0.9rem' }}>
           {uploadStatus}
+        </div>
+      )}
+
+      {/* PDF Source Status & Disclaimer Banner */}
+      {extractedContent?.pdf_filename || extractedContent?.pdf_path ? (
+        <div className="pdf-status-banner custom-active">
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <span className="status-icon">🟢</span>
+            <div>
+              <strong style={{ fontSize: '0.95rem' }}>Active PDF Source: {extractedContent.pdf_filename || extractedContent.pdf_path.split(/[\\/]/).pop()}</strong>
+              <div className="sub-text">
+                ✅ Step 1 (Topics), Step 2 (Question Papers), and Step 3 (AI Answer Sheet Evaluation) are <strong>strictly bound</strong> to this uploaded PDF for <strong>{subject} (Unit {unitNumber})</strong>.
+              </div>
+            </div>
+          </div>
+          <span className="badge badge-strong" style={{ background: 'rgba(16, 185, 129, 0.25)', border: '1px solid #10b981' }}>
+            PDF BOUND
+          </span>
+        </div>
+      ) : (
+        <div className="pdf-status-banner disclaimer-active">
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+            <span className="status-icon">⚠️</span>
+            <div>
+              <strong style={{ fontSize: '0.95rem' }}>PDF Source Disclaimer: No custom PDF uploaded for {subject} (Unit {unitNumber})</strong>
+              <div className="sub-text">
+                Currently operating on default syllabus template. Go to <strong>Step 1: Upload PDF</strong> to upload the official Unit PDF for 100% custom PDF-bound question papers & answer sheet grading.
+              </div>
+            </div>
+          </div>
+          <button onClick={() => setActiveStep(1)} className="btn-primary btn-sm" style={{ background: 'var(--warning-gradient)', whiteSpace: 'nowrap' }}>
+            📤 Upload Unit PDF
+          </button>
         </div>
       )}
 

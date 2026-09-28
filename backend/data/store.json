@@ -3,677 +3,6 @@
   "question_papers": [
     {
       "subject": "Deep Learning",
-      "exam_name": "Internal Assessment 2",
-      "ia_type": "IA 2",
-      "unit_number": 2,
-      "total_marks": 50,
-      "questions": [
-        {
-          "question_id": "Q1",
-          "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 1?",
-          "topic": "Deep Learning Unit 2 Concept 1",
-          "max_marks": 2,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q2",
-          "part": "Part A (2 Marks)",
-          "question": "What is meant by Deep Learning Unit 2 Concept 2? State its core objective.",
-          "topic": "Deep Learning Unit 2 Concept 2",
-          "max_marks": 2,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q3",
-          "part": "Part A (2 Marks)",
-          "question": "What is Deep Learning Unit 2 Concept 3? State the primary problem it addresses in Deep Learning.",
-          "topic": "Deep Learning Unit 2 Concept 3",
-          "max_marks": 2,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 3 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q4",
-          "part": "Part A (2 Marks)",
-          "question": "What is Deep Learning Unit 2 Concept 4? State the primary problem it addresses in Deep Learning.",
-          "topic": "Deep Learning Unit 2 Concept 4",
-          "max_marks": 2,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 4 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q5",
-          "part": "Part A (2 Marks)",
-          "question": "What is meant by Deep Learning Unit 2 Concept 5? State its core objective.",
-          "topic": "Deep Learning Unit 2 Concept 5",
-          "max_marks": 2,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 5 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q6a",
-          "part": "Part B (12 Marks - Choice A)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 3 Concept 1? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 3 Concept 1",
-          "max_marks": 12,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 1 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q6b",
-          "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 3 Concept 2? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 3 Concept 2",
-          "max_marks": 12,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 2 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q7a",
-          "part": "Part B (12 Marks - Choice A)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 3 Concept 3? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 3 Concept 3",
-          "max_marks": 12,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 3 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q7b",
-          "part": "Part B (12 Marks - Choice B)",
-          "question": "What is Deep Learning Unit 3 Concept 4? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 3 Concept 4",
-          "max_marks": 12,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 4 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q8a",
-          "part": "Part C (16 Marks - Choice A)",
-          "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Deep Learning Unit 3 Concept 5 in an end-to-end production pipeline? Provide a detailed architecture and case study.",
-          "topic": "Deep Learning Unit 3 Concept 5",
-          "max_marks": 16,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 5 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q8b",
-          "part": "Part C (16 Marks - Choice B)",
-          "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 2 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-          "topic": "Deep Learning Unit 2 Concept 1",
-          "max_marks": 16,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        }
-      ],
-      "paper": {
-        "part_a": [
-          {
-            "question_id": "Q1",
-            "part": "Part A (2 Marks)",
-            "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 1?",
-            "topic": "Deep Learning Unit 2 Concept 1",
-            "max_marks": 2,
-            "unit_number": 2,
-            "pdf_answer": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q2",
-            "part": "Part A (2 Marks)",
-            "question": "What is meant by Deep Learning Unit 2 Concept 2? State its core objective.",
-            "topic": "Deep Learning Unit 2 Concept 2",
-            "max_marks": 2,
-            "unit_number": 2,
-            "pdf_answer": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q3",
-            "part": "Part A (2 Marks)",
-            "question": "What is Deep Learning Unit 2 Concept 3? State the primary problem it addresses in Deep Learning.",
-            "topic": "Deep Learning Unit 2 Concept 3",
-            "max_marks": 2,
-            "unit_number": 2,
-            "pdf_answer": "Deep Learning Unit 2 Concept 3 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q4",
-            "part": "Part A (2 Marks)",
-            "question": "What is Deep Learning Unit 2 Concept 4? State the primary problem it addresses in Deep Learning.",
-            "topic": "Deep Learning Unit 2 Concept 4",
-            "max_marks": 2,
-            "unit_number": 2,
-            "pdf_answer": "Deep Learning Unit 2 Concept 4 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q5",
-            "part": "Part A (2 Marks)",
-            "question": "What is meant by Deep Learning Unit 2 Concept 5? State its core objective.",
-            "topic": "Deep Learning Unit 2 Concept 5",
-            "max_marks": 2,
-            "unit_number": 2,
-            "pdf_answer": "Deep Learning Unit 2 Concept 5 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          }
-        ],
-        "part_b": [
-          {
-            "question_id": "Q6",
-            "choice": "Either/Or",
-            "option_a": {
-              "question_id": "Q6a",
-              "part": "Part B (12 Marks - Choice A)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 3 Concept 1? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 3 Concept 1",
-              "max_marks": 12,
-              "unit_number": 3,
-              "pdf_answer": "Deep Learning Unit 3 Concept 1 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            },
-            "option_b": {
-              "question_id": "Q6b",
-              "part": "Part B (12 Marks - Choice B)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 3 Concept 2? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 3 Concept 2",
-              "max_marks": 12,
-              "unit_number": 3,
-              "pdf_answer": "Deep Learning Unit 3 Concept 2 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            }
-          },
-          {
-            "question_id": "Q7",
-            "choice": "Either/Or",
-            "option_a": {
-              "question_id": "Q7a",
-              "part": "Part B (12 Marks - Choice A)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 3 Concept 3? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 3 Concept 3",
-              "max_marks": 12,
-              "unit_number": 3,
-              "pdf_answer": "Deep Learning Unit 3 Concept 3 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            },
-            "option_b": {
-              "question_id": "Q7b",
-              "part": "Part B (12 Marks - Choice B)",
-              "question": "What is Deep Learning Unit 3 Concept 4? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-              "topic": "Deep Learning Unit 3 Concept 4",
-              "max_marks": 12,
-              "unit_number": 3,
-              "pdf_answer": "Deep Learning Unit 3 Concept 4 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            }
-          }
-        ],
-        "part_c": [
-          {
-            "question_id": "Q8",
-            "choice": "Either/Or",
-            "option_a": {
-              "question_id": "Q8a",
-              "part": "Part C (16 Marks - Choice A)",
-              "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Deep Learning Unit 3 Concept 5 in an end-to-end production pipeline? Provide a detailed architecture and case study.",
-              "topic": "Deep Learning Unit 3 Concept 5",
-              "max_marks": 16,
-              "unit_number": 3,
-              "pdf_answer": "Deep Learning Unit 3 Concept 5 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            },
-            "option_b": {
-              "question_id": "Q8b",
-              "part": "Part C (16 Marks - Choice B)",
-              "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 2 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-              "topic": "Deep Learning Unit 2 Concept 1",
-              "max_marks": 16,
-              "unit_number": 3,
-              "pdf_answer": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            }
-          }
-        ],
-        "total_marks": 50
-      }
-    },
-    {
-      "subject": "Deep Learning",
-      "exam_name": "Internal Assessment 3 / Model Exam",
-      "ia_type": "IA 3",
-      "unit_number": 1,
-      "total_marks": 100,
-      "questions": [
-        {
-          "question_id": "Q1",
-          "part": "Part A (2 Marks)",
-          "question": "What is Deep Learning Unit 1 Concept 1? State the primary problem it addresses in Deep Learning.",
-          "topic": "Deep Learning Unit 1 Concept 1",
-          "max_marks": 2,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q2",
-          "part": "Part A (2 Marks)",
-          "question": "What is meant by Deep Learning Unit 1 Concept 2? State its core objective.",
-          "topic": "Deep Learning Unit 1 Concept 2",
-          "max_marks": 2,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q3",
-          "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 1?",
-          "topic": "Deep Learning Unit 2 Concept 1",
-          "max_marks": 2,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q4",
-          "part": "Part A (2 Marks)",
-          "question": "What is meant by Deep Learning Unit 2 Concept 2? State its core objective.",
-          "topic": "Deep Learning Unit 2 Concept 2",
-          "max_marks": 2,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q5",
-          "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in Deep Learning Unit 3 Concept 1?",
-          "topic": "Deep Learning Unit 3 Concept 1",
-          "max_marks": 2,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 1 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q6",
-          "part": "Part A (2 Marks)",
-          "question": "What is meant by Deep Learning Unit 3 Concept 2? State its core objective.",
-          "topic": "Deep Learning Unit 3 Concept 2",
-          "max_marks": 2,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 2 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q7",
-          "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in Deep Learning Unit 4 Concept 1?",
-          "topic": "Deep Learning Unit 4 Concept 1",
-          "max_marks": 2,
-          "unit_number": 4,
-          "pdf_answer": "Deep Learning Unit 4 Concept 1 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q8",
-          "part": "Part A (2 Marks)",
-          "question": "What is meant by Deep Learning Unit 4 Concept 2? State its core objective.",
-          "topic": "Deep Learning Unit 4 Concept 2",
-          "max_marks": 2,
-          "unit_number": 4,
-          "pdf_answer": "Deep Learning Unit 4 Concept 2 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q9",
-          "part": "Part A (2 Marks)",
-          "question": "What is meant by Deep Learning Unit 5 Concept 1? State its core objective.",
-          "topic": "Deep Learning Unit 5 Concept 1",
-          "max_marks": 2,
-          "unit_number": 5,
-          "pdf_answer": "Deep Learning Unit 5 Concept 1 is an essential technical concept in Deep Learning (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q10",
-          "part": "Part A (2 Marks)",
-          "question": "What is Deep Learning Unit 5 Concept 2? State the primary problem it addresses in Deep Learning.",
-          "topic": "Deep Learning Unit 5 Concept 2",
-          "max_marks": 2,
-          "unit_number": 5,
-          "pdf_answer": "Deep Learning Unit 5 Concept 2 is an essential technical concept in Deep Learning (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q6a",
-          "part": "Part B (12 Marks - Choice A)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 1 Concept 2? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 1 Concept 2",
-          "max_marks": 12,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q6b",
-          "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 1 Concept 3? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 1 Concept 3",
-          "max_marks": 12,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q7a",
-          "part": "Part B (12 Marks - Choice A)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 2 Concept 2? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 2 Concept 2",
-          "max_marks": 12,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q7b",
-          "part": "Part B (12 Marks - Choice B)",
-          "question": "What is Deep Learning Unit 2 Concept 3? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 2 Concept 3",
-          "max_marks": 12,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 3 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q8a",
-          "part": "Part B (12 Marks - Choice A)",
-          "question": "What is Deep Learning Unit 3 Concept 2? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 3 Concept 2",
-          "max_marks": 12,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 2 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q8b",
-          "part": "Part B (12 Marks - Choice B)",
-          "question": "What is Deep Learning Unit 3 Concept 3? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 3 Concept 3",
-          "max_marks": 12,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 3 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q9a",
-          "part": "Part B (12 Marks - Choice A)",
-          "question": "What is Deep Learning Unit 4 Concept 2? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 4 Concept 2",
-          "max_marks": 12,
-          "unit_number": 4,
-          "pdf_answer": "Deep Learning Unit 4 Concept 2 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q9b",
-          "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 4 Concept 3? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 4 Concept 3",
-          "max_marks": 12,
-          "unit_number": 4,
-          "pdf_answer": "Deep Learning Unit 4 Concept 3 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q10a",
-          "part": "Part B (12 Marks - Choice A)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 5 Concept 2? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 5 Concept 2",
-          "max_marks": 12,
-          "unit_number": 5,
-          "pdf_answer": "Deep Learning Unit 5 Concept 2 is an essential technical concept in Deep Learning (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q10b",
-          "part": "Part B (12 Marks - Choice B)",
-          "question": "What is Deep Learning Unit 5 Concept 3? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 5 Concept 3",
-          "max_marks": 12,
-          "unit_number": 5,
-          "pdf_answer": "Deep Learning Unit 5 Concept 3 is an essential technical concept in Deep Learning (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q11a",
-          "part": "Part C (16 Marks - Choice A)",
-          "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 3 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-          "topic": "Deep Learning Unit 3 Concept 1",
-          "max_marks": 16,
-          "unit_number": 3,
-          "pdf_answer": "Deep Learning Unit 3 Concept 1 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "question_id": "Q11b",
-          "part": "Part C (16 Marks - Choice B)",
-          "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 4 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-          "topic": "Deep Learning Unit 4 Concept 1",
-          "max_marks": 16,
-          "unit_number": 4,
-          "pdf_answer": "Deep Learning Unit 4 Concept 1 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        }
-      ],
-      "paper": {
-        "part_a": [
-          {
-            "question_id": "Q1",
-            "part": "Part A (2 Marks)",
-            "question": "What is Deep Learning Unit 1 Concept 1? State the primary problem it addresses in Deep Learning.",
-            "topic": "Deep Learning Unit 1 Concept 1",
-            "max_marks": 2,
-            "unit_number": 1,
-            "pdf_answer": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q2",
-            "part": "Part A (2 Marks)",
-            "question": "What is meant by Deep Learning Unit 1 Concept 2? State its core objective.",
-            "topic": "Deep Learning Unit 1 Concept 2",
-            "max_marks": 2,
-            "unit_number": 1,
-            "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q3",
-            "part": "Part A (2 Marks)",
-            "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 1?",
-            "topic": "Deep Learning Unit 2 Concept 1",
-            "max_marks": 2,
-            "unit_number": 2,
-            "pdf_answer": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q4",
-            "part": "Part A (2 Marks)",
-            "question": "What is meant by Deep Learning Unit 2 Concept 2? State its core objective.",
-            "topic": "Deep Learning Unit 2 Concept 2",
-            "max_marks": 2,
-            "unit_number": 2,
-            "pdf_answer": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q5",
-            "part": "Part A (2 Marks)",
-            "question": "What are the primary operational steps involved in Deep Learning Unit 3 Concept 1?",
-            "topic": "Deep Learning Unit 3 Concept 1",
-            "max_marks": 2,
-            "unit_number": 3,
-            "pdf_answer": "Deep Learning Unit 3 Concept 1 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q6",
-            "part": "Part A (2 Marks)",
-            "question": "What is meant by Deep Learning Unit 3 Concept 2? State its core objective.",
-            "topic": "Deep Learning Unit 3 Concept 2",
-            "max_marks": 2,
-            "unit_number": 3,
-            "pdf_answer": "Deep Learning Unit 3 Concept 2 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q7",
-            "part": "Part A (2 Marks)",
-            "question": "What are the primary operational steps involved in Deep Learning Unit 4 Concept 1?",
-            "topic": "Deep Learning Unit 4 Concept 1",
-            "max_marks": 2,
-            "unit_number": 4,
-            "pdf_answer": "Deep Learning Unit 4 Concept 1 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q8",
-            "part": "Part A (2 Marks)",
-            "question": "What is meant by Deep Learning Unit 4 Concept 2? State its core objective.",
-            "topic": "Deep Learning Unit 4 Concept 2",
-            "max_marks": 2,
-            "unit_number": 4,
-            "pdf_answer": "Deep Learning Unit 4 Concept 2 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q9",
-            "part": "Part A (2 Marks)",
-            "question": "What is meant by Deep Learning Unit 5 Concept 1? State its core objective.",
-            "topic": "Deep Learning Unit 5 Concept 1",
-            "max_marks": 2,
-            "unit_number": 5,
-            "pdf_answer": "Deep Learning Unit 5 Concept 1 is an essential technical concept in Deep Learning (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          },
-          {
-            "question_id": "Q10",
-            "part": "Part A (2 Marks)",
-            "question": "What is Deep Learning Unit 5 Concept 2? State the primary problem it addresses in Deep Learning.",
-            "topic": "Deep Learning Unit 5 Concept 2",
-            "max_marks": 2,
-            "unit_number": 5,
-            "pdf_answer": "Deep Learning Unit 5 Concept 2 is an essential technical concept in Deep Learning (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-          }
-        ],
-        "part_b": [
-          {
-            "question_id": "Q6",
-            "choice": "Either/Or",
-            "unit_number": 1,
-            "option_a": {
-              "question_id": "Q6a",
-              "part": "Part B (12 Marks - Choice A)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 1 Concept 2? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 1 Concept 2",
-              "max_marks": 12,
-              "unit_number": 1,
-              "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            },
-            "option_b": {
-              "question_id": "Q6b",
-              "part": "Part B (12 Marks - Choice B)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 1 Concept 3? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 1 Concept 3",
-              "max_marks": 12,
-              "unit_number": 1,
-              "pdf_answer": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            }
-          },
-          {
-            "question_id": "Q7",
-            "choice": "Either/Or",
-            "unit_number": 2,
-            "option_a": {
-              "question_id": "Q7a",
-              "part": "Part B (12 Marks - Choice A)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 2 Concept 2? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 2 Concept 2",
-              "max_marks": 12,
-              "unit_number": 2,
-              "pdf_answer": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            },
-            "option_b": {
-              "question_id": "Q7b",
-              "part": "Part B (12 Marks - Choice B)",
-              "question": "What is Deep Learning Unit 2 Concept 3? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-              "topic": "Deep Learning Unit 2 Concept 3",
-              "max_marks": 12,
-              "unit_number": 2,
-              "pdf_answer": "Deep Learning Unit 2 Concept 3 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            }
-          },
-          {
-            "question_id": "Q8",
-            "choice": "Either/Or",
-            "unit_number": 3,
-            "option_a": {
-              "question_id": "Q8a",
-              "part": "Part B (12 Marks - Choice A)",
-              "question": "What is Deep Learning Unit 3 Concept 2? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-              "topic": "Deep Learning Unit 3 Concept 2",
-              "max_marks": 12,
-              "unit_number": 3,
-              "pdf_answer": "Deep Learning Unit 3 Concept 2 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            },
-            "option_b": {
-              "question_id": "Q8b",
-              "part": "Part B (12 Marks - Choice B)",
-              "question": "What is Deep Learning Unit 3 Concept 3? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-              "topic": "Deep Learning Unit 3 Concept 3",
-              "max_marks": 12,
-              "unit_number": 3,
-              "pdf_answer": "Deep Learning Unit 3 Concept 3 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            }
-          },
-          {
-            "question_id": "Q9",
-            "choice": "Either/Or",
-            "unit_number": 4,
-            "option_a": {
-              "question_id": "Q9a",
-              "part": "Part B (12 Marks - Choice A)",
-              "question": "What is Deep Learning Unit 4 Concept 2? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-              "topic": "Deep Learning Unit 4 Concept 2",
-              "max_marks": 12,
-              "unit_number": 4,
-              "pdf_answer": "Deep Learning Unit 4 Concept 2 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            },
-            "option_b": {
-              "question_id": "Q9b",
-              "part": "Part B (12 Marks - Choice B)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 4 Concept 3? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 4 Concept 3",
-              "max_marks": 12,
-              "unit_number": 4,
-              "pdf_answer": "Deep Learning Unit 4 Concept 3 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            }
-          },
-          {
-            "question_id": "Q10",
-            "choice": "Either/Or",
-            "unit_number": 5,
-            "option_a": {
-              "question_id": "Q10a",
-              "part": "Part B (12 Marks - Choice A)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 5 Concept 2? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 5 Concept 2",
-              "max_marks": 12,
-              "unit_number": 5,
-              "pdf_answer": "Deep Learning Unit 5 Concept 2 is an essential technical concept in Deep Learning (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            },
-            "option_b": {
-              "question_id": "Q10b",
-              "part": "Part B (12 Marks - Choice B)",
-              "question": "What is Deep Learning Unit 5 Concept 3? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-              "topic": "Deep Learning Unit 5 Concept 3",
-              "max_marks": 12,
-              "unit_number": 5,
-              "pdf_answer": "Deep Learning Unit 5 Concept 3 is an essential technical concept in Deep Learning (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            }
-          }
-        ],
-        "part_c": [
-          {
-            "question_id": "Q11",
-            "choice": "Either/Or",
-            "option_a": {
-              "question_id": "Q11a",
-              "part": "Part C (16 Marks - Choice A)",
-              "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 3 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-              "topic": "Deep Learning Unit 3 Concept 1",
-              "max_marks": 16,
-              "unit_number": 3,
-              "pdf_answer": "Deep Learning Unit 3 Concept 1 is an essential technical concept in Deep Learning (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            },
-            "option_b": {
-              "question_id": "Q11b",
-              "part": "Part C (16 Marks - Choice B)",
-              "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 4 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-              "topic": "Deep Learning Unit 4 Concept 1",
-              "max_marks": 16,
-              "unit_number": 4,
-              "pdf_answer": "Deep Learning Unit 4 Concept 1 is an essential technical concept in Deep Learning (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-            }
-          }
-        ],
-        "total_marks": 100
-      }
-    },
-    {
-      "subject": "Deep Learning",
       "exam_name": "Internal Assessment 1",
       "ia_type": "IA 1",
       "unit_number": 1,
@@ -682,101 +11,101 @@
         {
           "question_id": "Q1",
           "part": "Part A (2 Marks)",
-          "question": "What is Deep Learning Unit 1 Concept 1? State the primary problem it addresses in Deep Learning.",
-          "topic": "Deep Learning Unit 1 Concept 1",
+          "question": "What are two key advantages and limitations of using Multilayer Perceptron (MLP)?",
+          "topic": "Multilayer Perceptron (MLP)",
           "max_marks": 2,
           "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Multilayer Perceptron (MLP) is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q2",
           "part": "Part A (2 Marks)",
-          "question": "What is meant by Deep Learning Unit 1 Concept 2? State its core objective.",
-          "topic": "Deep Learning Unit 1 Concept 2",
+          "question": "What role does Perceptron Model perform in modern computational pipelines?",
+          "topic": "Perceptron Model",
           "max_marks": 2,
           "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Perceptron Model: Core theoretical principle for Perceptron Model."
         },
         {
           "question_id": "Q3",
           "part": "Part A (2 Marks)",
-          "question": "What is Deep Learning Unit 1 Concept 3? State the primary problem it addresses in Deep Learning.",
-          "topic": "Deep Learning Unit 1 Concept 3",
+          "question": "What is Gradient Descent? State the primary problem it addresses in Deep Learning.",
+          "topic": "Gradient Descent",
           "max_marks": 2,
           "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Gradient Descent is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q4",
           "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 4?",
-          "topic": "Deep Learning Unit 2 Concept 4",
+          "question": "What is meant by ResNet & Skip Connections, and what governing principles define it?",
+          "topic": "ResNet & Skip Connections",
           "max_marks": 2,
           "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 4 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "ResNet & Skip Connections is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q5",
           "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 5?",
-          "topic": "Deep Learning Unit 2 Concept 5",
+          "question": "What role does CNN Architecture perform in modern computational pipelines?",
+          "topic": "CNN Architecture",
           "max_marks": 2,
           "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 5 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "CNN Architecture: Core theoretical principle for CNN Architecture."
         },
         {
           "question_id": "Q6a",
           "part": "Part B (12 Marks - Choice A)",
-          "question": "What is Deep Learning Unit 1 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 1 Concept 1",
+          "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Multilayer Perceptron (MLP)? Critically evaluate its performance.",
+          "topic": "Multilayer Perceptron (MLP)",
           "max_marks": 12,
           "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Multilayer Perceptron (MLP) is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q6b",
           "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 1 Concept 2? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 1 Concept 2",
+          "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in Perceptron Model? Evaluate in detail.",
+          "topic": "Perceptron Model",
           "max_marks": 12,
           "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Perceptron Model: Core theoretical principle for Perceptron Model."
         },
         {
           "question_id": "Q7a",
           "part": "Part B (12 Marks - Choice A)",
-          "question": "What is Deep Learning Unit 2 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 2 Concept 1",
+          "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in CNN Architecture? Evaluate in detail.",
+          "topic": "CNN Architecture",
           "max_marks": 12,
           "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "CNN Architecture: Core theoretical principle for CNN Architecture."
         },
         {
           "question_id": "Q7b",
           "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 2 Concept 2? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 2 Concept 2",
+          "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in AlexNet & VGG? Evaluate in detail.",
+          "topic": "AlexNet & VGG",
           "max_marks": 12,
           "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "AlexNet & VGG is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q8a",
           "part": "Part C (16 Marks - Choice A)",
-          "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 1 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-          "topic": "Deep Learning Unit 1 Concept 3",
+          "question": "What is the comprehensive computational architecture required to integrate Gradient Descent into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+          "topic": "Gradient Descent",
           "max_marks": 16,
           "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Gradient Descent is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q8b",
           "part": "Part C (16 Marks - Choice B)",
-          "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 2 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-          "topic": "Deep Learning Unit 2 Concept 3",
+          "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Convolution & Pooling in an end-to-end production pipeline? Provide a detailed architecture and case study.",
+          "topic": "Convolution & Pooling",
           "max_marks": 16,
           "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 3 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Convolution & Pooling: Practical application guide for Convolution & Pooling."
         }
       ],
       "paper": {
@@ -784,47 +113,47 @@
           {
             "question_id": "Q1",
             "part": "Part A (2 Marks)",
-            "question": "What is Deep Learning Unit 1 Concept 1? State the primary problem it addresses in Deep Learning.",
-            "topic": "Deep Learning Unit 1 Concept 1",
+            "question": "What are two key advantages and limitations of using Multilayer Perceptron (MLP)?",
+            "topic": "Multilayer Perceptron (MLP)",
             "max_marks": 2,
             "unit_number": 1,
-            "pdf_answer": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "Multilayer Perceptron (MLP) is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q2",
             "part": "Part A (2 Marks)",
-            "question": "What is meant by Deep Learning Unit 1 Concept 2? State its core objective.",
-            "topic": "Deep Learning Unit 1 Concept 2",
+            "question": "What role does Perceptron Model perform in modern computational pipelines?",
+            "topic": "Perceptron Model",
             "max_marks": 2,
             "unit_number": 1,
-            "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "Perceptron Model: Core theoretical principle for Perceptron Model."
           },
           {
             "question_id": "Q3",
             "part": "Part A (2 Marks)",
-            "question": "What is Deep Learning Unit 1 Concept 3? State the primary problem it addresses in Deep Learning.",
-            "topic": "Deep Learning Unit 1 Concept 3",
+            "question": "What is Gradient Descent? State the primary problem it addresses in Deep Learning.",
+            "topic": "Gradient Descent",
             "max_marks": 2,
             "unit_number": 1,
-            "pdf_answer": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "Gradient Descent is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q4",
             "part": "Part A (2 Marks)",
-            "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 4?",
-            "topic": "Deep Learning Unit 2 Concept 4",
+            "question": "What is meant by ResNet & Skip Connections, and what governing principles define it?",
+            "topic": "ResNet & Skip Connections",
             "max_marks": 2,
             "unit_number": 2,
-            "pdf_answer": "Deep Learning Unit 2 Concept 4 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "ResNet & Skip Connections is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q5",
             "part": "Part A (2 Marks)",
-            "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 5?",
-            "topic": "Deep Learning Unit 2 Concept 5",
+            "question": "What role does CNN Architecture perform in modern computational pipelines?",
+            "topic": "CNN Architecture",
             "max_marks": 2,
             "unit_number": 2,
-            "pdf_answer": "Deep Learning Unit 2 Concept 5 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "CNN Architecture: Core theoretical principle for CNN Architecture."
           }
         ],
         "part_b": [
@@ -834,20 +163,20 @@
             "option_a": {
               "question_id": "Q6a",
               "part": "Part B (12 Marks - Choice A)",
-              "question": "What is Deep Learning Unit 1 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-              "topic": "Deep Learning Unit 1 Concept 1",
+              "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Multilayer Perceptron (MLP)? Critically evaluate its performance.",
+              "topic": "Multilayer Perceptron (MLP)",
               "max_marks": 12,
               "unit_number": 1,
-              "pdf_answer": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "pdf_answer": "Multilayer Perceptron (MLP) is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             },
             "option_b": {
               "question_id": "Q6b",
               "part": "Part B (12 Marks - Choice B)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 1 Concept 2? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 1 Concept 2",
+              "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in Perceptron Model? Evaluate in detail.",
+              "topic": "Perceptron Model",
               "max_marks": 12,
               "unit_number": 1,
-              "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "pdf_answer": "Perceptron Model: Core theoretical principle for Perceptron Model."
             }
           },
           {
@@ -856,20 +185,20 @@
             "option_a": {
               "question_id": "Q7a",
               "part": "Part B (12 Marks - Choice A)",
-              "question": "What is Deep Learning Unit 2 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-              "topic": "Deep Learning Unit 2 Concept 1",
+              "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in CNN Architecture? Evaluate in detail.",
+              "topic": "CNN Architecture",
               "max_marks": 12,
               "unit_number": 2,
-              "pdf_answer": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "pdf_answer": "CNN Architecture: Core theoretical principle for CNN Architecture."
             },
             "option_b": {
               "question_id": "Q7b",
               "part": "Part B (12 Marks - Choice B)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 2 Concept 2? Illustrate with clear diagrams.",
-              "topic": "Deep Learning Unit 2 Concept 2",
+              "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in AlexNet & VGG? Evaluate in detail.",
+              "topic": "AlexNet & VGG",
               "max_marks": 12,
               "unit_number": 2,
-              "pdf_answer": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "pdf_answer": "AlexNet & VGG is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             }
           }
         ],
@@ -880,20 +209,248 @@
             "option_a": {
               "question_id": "Q8a",
               "part": "Part C (16 Marks - Choice A)",
-              "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 1 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-              "topic": "Deep Learning Unit 1 Concept 3",
+              "question": "What is the comprehensive computational architecture required to integrate Gradient Descent into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+              "topic": "Gradient Descent",
               "max_marks": 16,
               "unit_number": 1,
-              "pdf_answer": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "pdf_answer": "Gradient Descent is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             },
             "option_b": {
               "question_id": "Q8b",
               "part": "Part C (16 Marks - Choice B)",
-              "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 2 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-              "topic": "Deep Learning Unit 2 Concept 3",
+              "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Convolution & Pooling in an end-to-end production pipeline? Provide a detailed architecture and case study.",
+              "topic": "Convolution & Pooling",
               "max_marks": 16,
               "unit_number": 2,
-              "pdf_answer": "Deep Learning Unit 2 Concept 3 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "pdf_answer": "Convolution & Pooling: Practical application guide for Convolution & Pooling."
+            }
+          }
+        ],
+        "total_marks": 50
+      }
+    },
+    {
+      "subject": "Machine Learning",
+      "exam_name": "Internal Assessment 1",
+      "ia_type": "IA 1",
+      "unit_number": 1,
+      "total_marks": 50,
+      "questions": [
+        {
+          "question_id": "Q1",
+          "part": "Part A (2 Marks)",
+          "question": "What is Gradient Descent Weight Updates? State the primary problem it addresses in Machine Learning.",
+          "topic": "Gradient Descent Weight Updates",
+          "max_marks": 2,
+          "unit_number": 1,
+          "pdf_answer": "Gradient Descent Weight Updates is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q2",
+          "part": "Part A (2 Marks)",
+          "question": "What is meant by Linear Regression & OLS Cost Function? State its core objective.",
+          "topic": "Linear Regression & OLS Cost Function",
+          "max_marks": 2,
+          "unit_number": 1,
+          "pdf_answer": "Linear Regression & OLS Cost Function is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q3",
+          "part": "Part A (2 Marks)",
+          "question": "What are the primary operational steps involved in BiasVariance Tradeoff & Regularization?",
+          "topic": "BiasVariance Tradeoff & Regularization",
+          "max_marks": 2,
+          "unit_number": 1,
+          "pdf_answer": "BiasVariance Tradeoff & Regularization is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q4",
+          "part": "Part A (2 Marks)",
+          "question": "What are the primary operational steps involved in Machine Learning Unit 2 Concept 4?",
+          "topic": "Machine Learning Unit 2 Concept 4",
+          "max_marks": 2,
+          "unit_number": 2,
+          "pdf_answer": "Machine Learning Unit 2 Concept 4 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q5",
+          "part": "Part A (2 Marks)",
+          "question": "What is Machine Learning Unit 2 Concept 5? State the primary problem it addresses in Machine Learning.",
+          "topic": "Machine Learning Unit 2 Concept 5",
+          "max_marks": 2,
+          "unit_number": 2,
+          "pdf_answer": "Machine Learning Unit 2 Concept 5 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q6a",
+          "part": "Part B (12 Marks - Choice A)",
+          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Gradient Descent Weight Updates? Illustrate with clear diagrams.",
+          "topic": "Gradient Descent Weight Updates",
+          "max_marks": 12,
+          "unit_number": 1,
+          "pdf_answer": "Gradient Descent Weight Updates is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q6b",
+          "part": "Part B (12 Marks - Choice B)",
+          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Linear Regression & OLS Cost Function? Illustrate with clear diagrams.",
+          "topic": "Linear Regression & OLS Cost Function",
+          "max_marks": 12,
+          "unit_number": 1,
+          "pdf_answer": "Linear Regression & OLS Cost Function is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q7a",
+          "part": "Part B (12 Marks - Choice A)",
+          "question": "What is Machine Learning Unit 2 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
+          "topic": "Machine Learning Unit 2 Concept 1",
+          "max_marks": 12,
+          "unit_number": 2,
+          "pdf_answer": "Machine Learning Unit 2 Concept 1 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q7b",
+          "part": "Part B (12 Marks - Choice B)",
+          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Machine Learning Unit 2 Concept 2? Illustrate with clear diagrams.",
+          "topic": "Machine Learning Unit 2 Concept 2",
+          "max_marks": 12,
+          "unit_number": 2,
+          "pdf_answer": "Machine Learning Unit 2 Concept 2 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q8a",
+          "part": "Part C (16 Marks - Choice A)",
+          "question": "What is the comprehensive computational architecture required to integrate BiasVariance Tradeoff & Regularization into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+          "topic": "BiasVariance Tradeoff & Regularization",
+          "max_marks": 16,
+          "unit_number": 1,
+          "pdf_answer": "BiasVariance Tradeoff & Regularization is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q8b",
+          "part": "Part C (16 Marks - Choice B)",
+          "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Machine Learning Unit 2 Concept 3 in an end-to-end production pipeline? Provide a detailed architecture and case study.",
+          "topic": "Machine Learning Unit 2 Concept 3",
+          "max_marks": 16,
+          "unit_number": 2,
+          "pdf_answer": "Machine Learning Unit 2 Concept 3 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        }
+      ],
+      "paper": {
+        "part_a": [
+          {
+            "question_id": "Q1",
+            "part": "Part A (2 Marks)",
+            "question": "What is Gradient Descent Weight Updates? State the primary problem it addresses in Machine Learning.",
+            "topic": "Gradient Descent Weight Updates",
+            "max_marks": 2,
+            "unit_number": 1,
+            "pdf_answer": "Gradient Descent Weight Updates is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q2",
+            "part": "Part A (2 Marks)",
+            "question": "What is meant by Linear Regression & OLS Cost Function? State its core objective.",
+            "topic": "Linear Regression & OLS Cost Function",
+            "max_marks": 2,
+            "unit_number": 1,
+            "pdf_answer": "Linear Regression & OLS Cost Function is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q3",
+            "part": "Part A (2 Marks)",
+            "question": "What are the primary operational steps involved in BiasVariance Tradeoff & Regularization?",
+            "topic": "BiasVariance Tradeoff & Regularization",
+            "max_marks": 2,
+            "unit_number": 1,
+            "pdf_answer": "BiasVariance Tradeoff & Regularization is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q4",
+            "part": "Part A (2 Marks)",
+            "question": "What are the primary operational steps involved in Machine Learning Unit 2 Concept 4?",
+            "topic": "Machine Learning Unit 2 Concept 4",
+            "max_marks": 2,
+            "unit_number": 2,
+            "pdf_answer": "Machine Learning Unit 2 Concept 4 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q5",
+            "part": "Part A (2 Marks)",
+            "question": "What is Machine Learning Unit 2 Concept 5? State the primary problem it addresses in Machine Learning.",
+            "topic": "Machine Learning Unit 2 Concept 5",
+            "max_marks": 2,
+            "unit_number": 2,
+            "pdf_answer": "Machine Learning Unit 2 Concept 5 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          }
+        ],
+        "part_b": [
+          {
+            "question_id": "Q6",
+            "choice": "Either/Or",
+            "option_a": {
+              "question_id": "Q6a",
+              "part": "Part B (12 Marks - Choice A)",
+              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Gradient Descent Weight Updates? Illustrate with clear diagrams.",
+              "topic": "Gradient Descent Weight Updates",
+              "max_marks": 12,
+              "unit_number": 1,
+              "pdf_answer": "Gradient Descent Weight Updates is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            },
+            "option_b": {
+              "question_id": "Q6b",
+              "part": "Part B (12 Marks - Choice B)",
+              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Linear Regression & OLS Cost Function? Illustrate with clear diagrams.",
+              "topic": "Linear Regression & OLS Cost Function",
+              "max_marks": 12,
+              "unit_number": 1,
+              "pdf_answer": "Linear Regression & OLS Cost Function is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            }
+          },
+          {
+            "question_id": "Q7",
+            "choice": "Either/Or",
+            "option_a": {
+              "question_id": "Q7a",
+              "part": "Part B (12 Marks - Choice A)",
+              "question": "What is Machine Learning Unit 2 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
+              "topic": "Machine Learning Unit 2 Concept 1",
+              "max_marks": 12,
+              "unit_number": 2,
+              "pdf_answer": "Machine Learning Unit 2 Concept 1 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            },
+            "option_b": {
+              "question_id": "Q7b",
+              "part": "Part B (12 Marks - Choice B)",
+              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Machine Learning Unit 2 Concept 2? Illustrate with clear diagrams.",
+              "topic": "Machine Learning Unit 2 Concept 2",
+              "max_marks": 12,
+              "unit_number": 2,
+              "pdf_answer": "Machine Learning Unit 2 Concept 2 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            }
+          }
+        ],
+        "part_c": [
+          {
+            "question_id": "Q8",
+            "choice": "Either/Or",
+            "option_a": {
+              "question_id": "Q8a",
+              "part": "Part C (16 Marks - Choice A)",
+              "question": "What is the comprehensive computational architecture required to integrate BiasVariance Tradeoff & Regularization into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+              "topic": "BiasVariance Tradeoff & Regularization",
+              "max_marks": 16,
+              "unit_number": 1,
+              "pdf_answer": "BiasVariance Tradeoff & Regularization is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            },
+            "option_b": {
+              "question_id": "Q8b",
+              "part": "Part C (16 Marks - Choice B)",
+              "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Machine Learning Unit 2 Concept 3 in an end-to-end production pipeline? Provide a detailed architecture and case study.",
+              "topic": "Machine Learning Unit 2 Concept 3",
+              "max_marks": 16,
+              "unit_number": 2,
+              "pdf_answer": "Machine Learning Unit 2 Concept 3 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             }
           }
         ],
@@ -901,330 +458,6 @@
       }
     }
   ],
-  "student_marks": [
-    {
-      "subject": "Deep Learning",
-      "exam_name": "Internal Assessment 1",
-      "student_id": "STU101",
-      "student_name": "John Doe",
-      "total_score": 37.0,
-      "max_score": 50.0,
-      "percentage": 74.0,
-      "grade": "B",
-      "question_scores": {
-        "Q1": 2.0,
-        "Q2": 0.0,
-        "Q3": 0.0,
-        "Q4": 0.0,
-        "Q5": 0.0,
-        "Q6a": 11.5,
-        "Q6b": 0.0,
-        "Q7a": 10.0,
-        "Q7b": 0.0,
-        "Q8a": 13.5,
-        "Q8b": 0.0
-      },
-      "evaluated_questions": [
-        {
-          "student_answer": "Deep Learning Unit 1 Concept 1 involves fundamental governing equations, architectural components, and optimization algorithms.",
-          "reference_excerpt": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 100.0,
-          "semantic_sim_pct": 54.5,
-          "hybrid_similarity_pct": 79.5,
-          "matched_keywords": [
-            "deep",
-            "components",
-            "equations",
-            "governing",
-            "learning",
-            "concept",
-            "unit",
-            "architectural"
-          ],
-          "missing_keywords": [
-            "essential",
-            "parameter",
-            "operational",
-            "encompasses",
-            "technical"
-          ],
-          "awarded_marks": 2.0,
-          "feedback": "Excellent answer! Demonstrates strong understanding of Deep Learning Unit 1 Concept 1. All primary technical points covered.",
-          "question_id": "Q1",
-          "part": "Part A (2 Marks)",
-          "question": "What is Deep Learning Unit 1 Concept 1? State the primary problem it addresses in Deep Learning.",
-          "topic": "Deep Learning Unit 1 Concept 1",
-          "max_marks": 2.0,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "(No answer provided)",
-          "reference_excerpt": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 0.0,
-          "semantic_sim_pct": 0.0,
-          "hybrid_similarity_pct": 0.0,
-          "matched_keywords": [],
-          "missing_keywords": [
-            "deep",
-            "learning",
-            "unit",
-            "concept",
-            "essential"
-          ],
-          "awarded_marks": 0.0,
-          "feedback": "No substantial answer provided. Missing core theoretical concepts.",
-          "question_id": "Q2",
-          "part": "Part A (2 Marks)",
-          "question": "What is meant by Deep Learning Unit 1 Concept 2? State its core objective.",
-          "topic": "Deep Learning Unit 1 Concept 2",
-          "max_marks": 2.0,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "(No answer provided)",
-          "reference_excerpt": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 0.0,
-          "semantic_sim_pct": 0.0,
-          "hybrid_similarity_pct": 0.0,
-          "matched_keywords": [],
-          "missing_keywords": [
-            "deep",
-            "learning",
-            "unit",
-            "concept",
-            "essential"
-          ],
-          "awarded_marks": 0.0,
-          "feedback": "No substantial answer provided. Missing core theoretical concepts.",
-          "question_id": "Q3",
-          "part": "Part A (2 Marks)",
-          "question": "What is Deep Learning Unit 1 Concept 3? State the primary problem it addresses in Deep Learning.",
-          "topic": "Deep Learning Unit 1 Concept 3",
-          "max_marks": 2.0,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "(No answer provided)",
-          "reference_excerpt": "Deep Learning Unit 2 Concept 4 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 0.0,
-          "semantic_sim_pct": 0.0,
-          "hybrid_similarity_pct": 0.0,
-          "matched_keywords": [],
-          "missing_keywords": [
-            "deep",
-            "learning",
-            "unit",
-            "concept",
-            "essential"
-          ],
-          "awarded_marks": 0.0,
-          "feedback": "No substantial answer provided. Missing core theoretical concepts.",
-          "question_id": "Q4",
-          "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 4?",
-          "topic": "Deep Learning Unit 2 Concept 4",
-          "max_marks": 2.0,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 4 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "(No answer provided)",
-          "reference_excerpt": "Deep Learning Unit 2 Concept 5 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 0.0,
-          "semantic_sim_pct": 0.0,
-          "hybrid_similarity_pct": 0.0,
-          "matched_keywords": [],
-          "missing_keywords": [
-            "deep",
-            "learning",
-            "unit",
-            "concept",
-            "essential"
-          ],
-          "awarded_marks": 0.0,
-          "feedback": "No substantial answer provided. Missing core theoretical concepts.",
-          "question_id": "Q5",
-          "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in Deep Learning Unit 2 Concept 5?",
-          "topic": "Deep Learning Unit 2 Concept 5",
-          "max_marks": 2.0,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 5 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "Deep Learning Unit 1 Concept 1 is an essential technical concept encompassing architectural components, operational algorithms, and parameter optimization techniques with gradient descent.",
-          "reference_excerpt": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 100.0,
-          "semantic_sim_pct": 64.4,
-          "hybrid_similarity_pct": 84.0,
-          "matched_keywords": [
-            "deep",
-            "essential",
-            "components",
-            "learning",
-            "concept",
-            "unit",
-            "architectural",
-            "algorithms"
-          ],
-          "missing_keywords": [
-            "equations",
-            "governing",
-            "fundamental",
-            "encompasses"
-          ],
-          "awarded_marks": 11.5,
-          "feedback": "Excellent answer! Demonstrates strong understanding of Deep Learning Unit 1 Concept 1. All primary technical points covered.",
-          "question_id": "Q6a",
-          "part": "Part B (12 Marks - Choice A)",
-          "question": "What is Deep Learning Unit 1 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 1 Concept 1",
-          "max_marks": 12.0,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 1 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "(No answer provided)",
-          "reference_excerpt": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 0.0,
-          "semantic_sim_pct": 0.0,
-          "hybrid_similarity_pct": 0.0,
-          "matched_keywords": [],
-          "missing_keywords": [
-            "deep",
-            "learning",
-            "unit",
-            "concept",
-            "essential"
-          ],
-          "awarded_marks": 0.0,
-          "feedback": "No substantial answer provided. Missing core theoretical concepts.",
-          "question_id": "Q6b",
-          "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 1 Concept 2? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 1 Concept 2",
-          "max_marks": 12.0,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 2 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "Deep Learning Unit 2 Concept 1 provides fundamental governing mechanisms and transformation pipelines.",
-          "reference_excerpt": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 75.0,
-          "semantic_sim_pct": 34.5,
-          "hybrid_similarity_pct": 56.8,
-          "matched_keywords": [
-            "deep",
-            "governing",
-            "learning",
-            "concept",
-            "unit",
-            "fundamental"
-          ],
-          "missing_keywords": [
-            "essential",
-            "components",
-            "equations",
-            "architectural",
-            "algorithms",
-            "parameter"
-          ],
-          "awarded_marks": 10.0,
-          "feedback": "Good answer. Core concept of Deep Learning Unit 2 Concept 1 is addressed well, but missing deeper technical elaboration on: essential, components, equations.",
-          "question_id": "Q7a",
-          "part": "Part B (12 Marks - Choice A)",
-          "question": "What is Deep Learning Unit 2 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Deep Learning Unit 2 Concept 1",
-          "max_marks": 12.0,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 1 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "(No answer provided)",
-          "reference_excerpt": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 0.0,
-          "semantic_sim_pct": 0.0,
-          "hybrid_similarity_pct": 0.0,
-          "matched_keywords": [],
-          "missing_keywords": [
-            "deep",
-            "learning",
-            "unit",
-            "concept",
-            "essential"
-          ],
-          "awarded_marks": 0.0,
-          "feedback": "No substantial answer provided. Missing core theoretical concepts.",
-          "question_id": "Q7b",
-          "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Deep Learning Unit 2 Concept 2? Illustrate with clear diagrams.",
-          "topic": "Deep Learning Unit 2 Concept 2",
-          "max_marks": 12.0,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 2 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "Deep Learning Unit 1 Concept 3 provides architectural components and optimization techniques for enterprise deployment.",
-          "reference_excerpt": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 75.0,
-          "semantic_sim_pct": 41.0,
-          "hybrid_similarity_pct": 59.7,
-          "matched_keywords": [
-            "deep",
-            "components",
-            "learning",
-            "concept",
-            "unit",
-            "architectural"
-          ],
-          "missing_keywords": [
-            "essential",
-            "equations",
-            "governing",
-            "algorithms",
-            "parameter",
-            "fundamental"
-          ],
-          "awarded_marks": 13.5,
-          "feedback": "Good answer. Core concept of Deep Learning Unit 1 Concept 3 is addressed well, but missing deeper technical elaboration on: essential, equations, governing.",
-          "question_id": "Q8a",
-          "part": "Part C (16 Marks - Choice A)",
-          "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 1 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-          "topic": "Deep Learning Unit 1 Concept 3",
-          "max_marks": 16.0,
-          "unit_number": 1,
-          "pdf_answer": "Deep Learning Unit 1 Concept 3 is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        },
-        {
-          "student_answer": "(No answer provided)",
-          "reference_excerpt": "Deep Learning Unit 2 Concept 3 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
-          "keyword_match_pct": 0.0,
-          "semantic_sim_pct": 0.0,
-          "hybrid_similarity_pct": 0.0,
-          "matched_keywords": [],
-          "missing_keywords": [
-            "deep",
-            "learning",
-            "unit",
-            "concept",
-            "essential"
-          ],
-          "awarded_marks": 0.0,
-          "feedback": "No substantial answer provided. Missing core theoretical concepts.",
-          "question_id": "Q8b",
-          "part": "Part C (16 Marks - Choice B)",
-          "question": "What is the comprehensive computational architecture required to integrate Deep Learning Unit 2 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-          "topic": "Deep Learning Unit 2 Concept 3",
-          "max_marks": 16.0,
-          "unit_number": 2,
-          "pdf_answer": "Deep Learning Unit 2 Concept 3 is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
-        }
-      ],
-      "evaluated_at": "Deep Learning"
-    }
-  ],
+  "student_marks": [],
   "predictions": []
 }

@@ -550,3 +550,74 @@ class PDFProcessor:
                 f"{subject} Unit {unit_number} Performance Evaluation"
             ]
 
+    @classmethod
+    def validate_pdf_content(
+        cls,
+        pdf_path: Optional[str],
+        selected_subject: str,
+        selected_unit_number: int,
+        raw_text: Optional[str] = None
+    ) -> Tuple[bool, str, Dict[str, Any]]:
+        """
+        Validates that an uploaded PDF actually matches the selected Subject and Unit Number.
+        Prevents uploading Cloud Computing Unit 5 notes when Deep Learning Unit 1 is selected.
+        """
+        filename = os.path.basename(pdf_path).lower() if pdf_path else ""
+        extracted_text = cls.extract_text_from_pdf(pdf_path) if (pdf_path and os.path.exists(pdf_path)) else (raw_text or "")
+        text_lower = (filename + " " + extracted_text[:12000]).lower()
+
+        # Subject keyword signatures
+        subject_signatures = {
+            "Deep Learning": ["deep learning", "neural network", "perceptron", "cnn", "convolutional", "rnn", "lstm", "autoencoder", "backpropagation", "activation function", "vgg", "resnet", "alexnet"],
+            "Machine Learning": ["machine learning", "regression", "logistic", "decision tree", "random forest", "svm", "support vector", "clustering", "k-means", "pca", "gradient boosting", "xgboost"],
+            "MLOps": ["mlops", "model monitoring", "feature store", "data drift", "model registry", "pipeline automation", "experiment tracking", "containerization", "canary", "shadow deployment"],
+            "Cloud Computing & Application Development (CCAD)": ["cloud computing", "virtualization", "hypervisor", "docker", "kubernetes", "microservices", "iaas", "paas", "saas", "aws", "gcp", "azure", "cloud provider", "virtual machine", "cloud consumer", "private cloud"],
+            "NLP & Generative AI": ["natural language", "nlp", "tokenization", "lemmatization", "stemming", "transformer", "bert", "gpt", "rag", "retrieval augmented", "word embedding", "morpheme", "seq2seq"]
+        }
+
+        # 1. Check for explicit mismatch with another subject signature
+        detected_other_subject = None
+        selected_sig = subject_signatures.get(selected_subject, [])
+        selected_matches = [k for k in selected_sig if k in text_lower]
+
+        for sub_name, keywords in subject_signatures.items():
+            if sub_name.lower() != selected_subject.lower():
+                matches = [k for k in keywords if k in text_lower]
+                if len(matches) >= 2 and len(selected_matches) == 0:
+                    detected_other_subject = sub_name
+                    break
+
+        # 2. Check for explicit unit number mismatch in PDF text / filename (e.g., "Unit 5", "Unit V", "Unit-5")
+        unit_roman_map = {
+            1: ["unit 1", "unit i", "unit-1", "unit_1", "unit 01"],
+            2: ["unit 2", "unit ii", "unit-2", "unit_2", "unit 02"],
+            3: ["unit 3", "unit iii", "unit-3", "unit_3", "unit 03"],
+            4: ["unit 4", "unit iv", "unit-4", "unit_4", "unit 04"],
+            5: ["unit 5", "unit v", "unit-5", "unit_5", "unit 05"]
+        }
+
+        detected_other_unit = None
+        selected_unit_patterns = unit_roman_map.get(int(selected_unit_number), [])
+        has_selected_unit_mention = any(p in text_lower for p in selected_unit_patterns)
+
+        for u_num, u_patterns in unit_roman_map.items():
+            if u_num != int(selected_unit_number):
+                if any(p in text_lower for p in u_patterns):
+                    if not has_selected_unit_mention:
+                        detected_other_unit = u_num
+                        break
+
+        if detected_other_subject:
+            msg = f"❌ Subject Mismatch: You selected '{selected_subject}', but the uploaded file appears to be for '{detected_other_subject}'."
+            if detected_other_unit:
+                msg += f" (Specifically Unit {detected_other_unit})"
+            msg += f". Please upload PDF notes matching '{selected_subject} (Unit {selected_unit_number})' or change your selected subject to '{detected_other_subject}'."
+            return False, msg, {"detected_subject": detected_other_subject, "detected_unit": detected_other_unit}
+
+        if detected_other_unit and not has_selected_unit_mention:
+            msg = f"❌ Unit Mismatch: You selected Unit {selected_unit_number} for '{selected_subject}', but the uploaded file ('{filename}') appears to be for Unit {detected_other_unit}. Please upload a PDF for Unit {selected_unit_number} or change the Unit selector to Unit {detected_other_unit}."
+            return False, msg, {"detected_subject": selected_subject, "detected_unit": detected_other_unit}
+
+        return True, "PDF matches selected subject and unit.", {"detected_subject": selected_subject, "detected_unit": selected_unit_number}
+
+
