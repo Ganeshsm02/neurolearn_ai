@@ -1,8 +1,1207 @@
 {
-  "units": [],
-  "question_papers": [
+  "units": [
     {
       "subject": "Deep Learning",
+      "unit_number": 1,
+      "unit_title": "Unit 1: Introduction to Neural Networks, Feed Forward Nets & TensorFlow",
+      "topics": [
+        "Introduction to Neural Network",
+        "Feed Forward Neural Nets",
+        "Tensorflow",
+        "Deep Learning Fundamentals",
+        "Deep Learning Algorithms and Types"
+      ],
+      "subtopics": [
+        "Overview of Introduction to Neural Network",
+        "Overview of Feed Forward Neural Nets",
+        "Overview of Tensorflow",
+        "Overview of Deep Learning Fundamentals",
+        "Overview of Deep Learning Algorithms and Types"
+      ],
+      "key_concepts": [
+        {
+          "name": "Introduction to Neural Network",
+          "description": "Core theoretical principle for Introduction to Neural Network."
+        },
+        {
+          "name": "Feed Forward Neural Nets",
+          "description": "Practical application guide for Feed Forward Neural Nets."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Introduction to Neural Network.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Introduction to Neural Network with Feed Forward Neural Nets.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Tensorflow.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Deep Learning",
+      "unit_number": 2,
+      "unit_title": "Unit 2: Convolutional Neural Networks (CNNs) & Advanced Computer Vision",
+      "topics": [
+        "Convolutional Neural Networks",
+        "Filters",
+        "Strides and Padding",
+        "Structure of Convolutional Network",
+        "Improving Performance of CNNs",
+        "Multilevel Convolution",
+        "Computer Vision with CNNs",
+        "Advanced Computer Vision"
+      ],
+      "subtopics": [
+        "Overview of Convolutional Neural Networks",
+        "Overview of Filters",
+        "Overview of Strides and Padding",
+        "Overview of Structure of Convolutional Network",
+        "Overview of Improving Performance of CNNs",
+        "Overview of Multilevel Convolution",
+        "Overview of Computer Vision with CNNs",
+        "Overview of Advanced Computer Vision"
+      ],
+      "key_concepts": [
+        {
+          "name": "Convolutional Neural Networks",
+          "description": "Core theoretical principle for Convolutional Neural Networks."
+        },
+        {
+          "name": "Filters",
+          "description": "Practical application guide for Filters."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Convolutional Neural Networks.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Convolutional Neural Networks with Filters.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Strides and Padding.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Deep Learning",
+      "unit_number": 3,
+      "unit_title": "Unit 3: Recurrent Neural Networks, Autoencoders & Sequence Learning",
+      "topics": [
+        "Recurrent Neural Networks",
+        "Recursive Neural Networks",
+        "Bidirectional RNNs",
+        "Deep Recurrent Networks",
+        "Complete & Regularized Autoencoders",
+        "Stochastic & Contractive Encoders",
+        "Language Modelling",
+        "Sequence to Sequence Learning",
+        "Speech Recognition"
+      ],
+      "subtopics": [
+        "Overview of Recurrent Neural Networks",
+        "Overview of Recursive Neural Networks",
+        "Overview of Bidirectional RNNs",
+        "Overview of Deep Recurrent Networks",
+        "Overview of Complete & Regularized Autoencoders",
+        "Overview of Stochastic & Contractive Encoders",
+        "Overview of Language Modelling",
+        "Overview of Sequence to Sequence Learning",
+        "Overview of Speech Recognition"
+      ],
+      "key_concepts": [
+        {
+          "name": "Recurrent Neural Networks",
+          "description": "Core theoretical principle for Recurrent Neural Networks."
+        },
+        {
+          "name": "Recursive Neural Networks",
+          "description": "Practical application guide for Recursive Neural Networks."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Recurrent Neural Networks.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Recurrent Neural Networks with Recursive Neural Networks.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Bidirectional RNNs.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Deep Learning",
+      "unit_number": 4,
+      "unit_title": "Unit 4: Reinforcement Learning Theory, Q-Learning & Actor-Critic",
+      "topics": [
+        "Reinforcement Learning Theory",
+        "Markov Decision Process",
+        "Monte Carlo Methods",
+        "Temporal Difference Methods",
+        "Value Functions",
+        "Q Learning",
+        "Deep Q-Learning",
+        "Policy Gradient Methods",
+        "Model-Based Methods",
+        "Actor-Critic Methods"
+      ],
+      "subtopics": [
+        "Overview of Reinforcement Learning Theory",
+        "Overview of Markov Decision Process",
+        "Overview of Monte Carlo Methods",
+        "Overview of Temporal Difference Methods",
+        "Overview of Value Functions",
+        "Overview of Q Learning",
+        "Overview of Deep Q-Learning",
+        "Overview of Policy Gradient Methods",
+        "Overview of Model-Based Methods",
+        "Overview of Actor-Critic Methods"
+      ],
+      "key_concepts": [
+        {
+          "name": "Reinforcement Learning Theory",
+          "description": "Core theoretical principle for Reinforcement Learning Theory."
+        },
+        {
+          "name": "Markov Decision Process",
+          "description": "Practical application guide for Markov Decision Process."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Reinforcement Learning Theory.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Reinforcement Learning Theory with Markov Decision Process.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Monte Carlo Methods.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Deep Learning",
+      "unit_number": 5,
+      "unit_title": "Unit 5: Autonomous Vehicles & DL in Cloud",
+      "topics": [
+        "Autonomous Vehicles Introduction",
+        "Imitation Driving Policy",
+        "Driving Policy with ChauffeurNet",
+        "DL in Cloud"
+      ],
+      "subtopics": [
+        "Overview of Autonomous Vehicles Introduction",
+        "Overview of Imitation Driving Policy",
+        "Overview of Driving Policy with ChauffeurNet",
+        "Overview of DL in Cloud"
+      ],
+      "key_concepts": [
+        {
+          "name": "Autonomous Vehicles Introduction",
+          "description": "Core theoretical principle for Autonomous Vehicles Introduction."
+        },
+        {
+          "name": "Imitation Driving Policy",
+          "description": "Practical application guide for Imitation Driving Policy."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Autonomous Vehicles Introduction.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Autonomous Vehicles Introduction with Imitation Driving Policy.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Driving Policy with ChauffeurNet.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Generative AI and LLM",
+      "unit_number": 1,
+      "unit_title": "Unit 1: Introduction to Generative AI & Foundation Model Ecosystems",
+      "topics": [
+        "Introduction to Generative AI",
+        "Evolution of Generative Models",
+        "Types of Generative AI",
+        "Foundation Models & LLMs",
+        "Pre-trained Models & Transfer Learning",
+        "Applications of Generative AI",
+        "Foundation Model Ecosystems & Platforms"
+      ],
+      "subtopics": [
+        "Overview of Introduction to Generative AI",
+        "Overview of Evolution of Generative Models",
+        "Overview of Types of Generative AI",
+        "Overview of Foundation Models & LLMs",
+        "Overview of Pre-trained Models & Transfer Learning",
+        "Overview of Applications of Generative AI",
+        "Overview of Foundation Model Ecosystems & Platforms"
+      ],
+      "key_concepts": [
+        {
+          "name": "Introduction to Generative AI",
+          "description": "Core theoretical principle for Introduction to Generative AI."
+        },
+        {
+          "name": "Evolution of Generative Models",
+          "description": "Practical application guide for Evolution of Generative Models."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Introduction to Generative AI.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Introduction to Generative AI with Evolution of Generative Models.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Types of Generative AI.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Generative AI and LLM",
+      "unit_number": 2,
+      "unit_title": "Unit 2: Sequence Modelling, Transformers, Self-Attention & LLM Architectures",
+      "topics": [
+        "Sequence Modelling",
+        "Transformer Architecture",
+        "Self-Attention & Multi-head Attention",
+        "Positional Encoding",
+        "Encoder and Decoder Models",
+        "BERT, GPT, T5, LLaMA Architectures",
+        "Tokenization Techniques",
+        "Embeddings & Vector Representations",
+        "Scaling Laws in LLMs",
+        "Mixture of Experts (MoE)",
+        "Emergent Capabilities"
+      ],
+      "subtopics": [
+        "Overview of Sequence Modelling",
+        "Overview of Transformer Architecture",
+        "Overview of Self-Attention & Multi-head Attention",
+        "Overview of Positional Encoding",
+        "Overview of Encoder and Decoder Models",
+        "Overview of BERT, GPT, T5, LLaMA Architectures",
+        "Overview of Tokenization Techniques",
+        "Overview of Embeddings & Vector Representations",
+        "Overview of Scaling Laws in LLMs",
+        "Overview of Mixture of Experts (MoE)",
+        "Overview of Emergent Capabilities"
+      ],
+      "key_concepts": [
+        {
+          "name": "Sequence Modelling",
+          "description": "Core theoretical principle for Sequence Modelling."
+        },
+        {
+          "name": "Transformer Architecture",
+          "description": "Practical application guide for Transformer Architecture."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Sequence Modelling.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Sequence Modelling with Transformer Architecture.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Self-Attention & Multi-head Attention.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Generative AI and LLM",
+      "unit_number": 3,
+      "unit_title": "Unit 3: Probabilistic Generative Models, VAEs, GANs, Diffusion & Multimodal AI",
+      "topics": [
+        "Generative Models as Probabilistic Models",
+        "Representation Learning & Latent Space",
+        "Autoencoders & Variational Autoencoders (VAE)",
+        "Generative Adversarial Networks (GANs)",
+        "Diffusion Models & Image Synthesis",
+        "Comparative Analysis of Architectures",
+        "Evolution of Multimodal AI Systems",
+        "Text, Image & Audio Understanding",
+        "Emerging Multimodal Foundation Models"
+      ],
+      "subtopics": [
+        "Overview of Generative Models as Probabilistic Models",
+        "Overview of Representation Learning & Latent Space",
+        "Overview of Autoencoders & Variational Autoencoders (VAE)",
+        "Overview of Generative Adversarial Networks (GANs)",
+        "Overview of Diffusion Models & Image Synthesis",
+        "Overview of Comparative Analysis of Architectures",
+        "Overview of Evolution of Multimodal AI Systems",
+        "Overview of Text, Image & Audio Understanding",
+        "Overview of Emerging Multimodal Foundation Models"
+      ],
+      "key_concepts": [
+        {
+          "name": "Generative Models as Probabilistic Models",
+          "description": "Core theoretical principle for Generative Models as Probabilistic Models."
+        },
+        {
+          "name": "Representation Learning & Latent Space",
+          "description": "Practical application guide for Representation Learning & Latent Space."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Generative Models as Probabilistic Models.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Generative Models as Probabilistic Models with Representation Learning & Latent Space.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Autoencoders & Variational Autoencoders (VAE).",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Generative AI and LLM",
+      "unit_number": 4,
+      "unit_title": "Unit 4: Prompt Engineering, Instruction Tuning, RLHF & RAG Systems",
+      "topics": [
+        "Prompt Engineering Fundamentals",
+        "Zero-shot, One-shot & Few-shot Prompting",
+        "Chain of Thought Prompting",
+        "Instruction Tuning",
+        "Fine-Tuning & Transfer Learning",
+        "RLHF",
+        "Retrieval Augmented Generation (RAG)",
+        "Vector Databases",
+        "Context Management",
+        "Evaluation Metrics for LLMs",
+        "Hallucination & Bias Reduction"
+      ],
+      "subtopics": [
+        "Overview of Prompt Engineering Fundamentals",
+        "Overview of Zero-shot, One-shot & Few-shot Prompting",
+        "Overview of Chain of Thought Prompting",
+        "Overview of Instruction Tuning",
+        "Overview of Fine-Tuning & Transfer Learning",
+        "Overview of RLHF",
+        "Overview of Retrieval Augmented Generation (RAG)",
+        "Overview of Vector Databases",
+        "Overview of Context Management",
+        "Overview of Evaluation Metrics for LLMs",
+        "Overview of Hallucination & Bias Reduction"
+      ],
+      "key_concepts": [
+        {
+          "name": "Prompt Engineering Fundamentals",
+          "description": "Core theoretical principle for Prompt Engineering Fundamentals."
+        },
+        {
+          "name": "Zero-shot, One-shot & Few-shot Prompting",
+          "description": "Practical application guide for Zero-shot, One-shot & Few-shot Prompting."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Prompt Engineering Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Prompt Engineering Fundamentals with Zero-shot, One-shot & Few-shot Prompting.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Chain of Thought Prompting.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Generative AI and LLM",
+      "unit_number": 5,
+      "unit_title": "Unit 5: Applications, Autonomous Agents, APIs, Cloud & Responsible AI",
+      "topics": [
+        "Text Generation & Summarization",
+        "Conversational AI & Chatbots",
+        "AI Code Generation",
+        "Image Generation Models",
+        "Diffusion Models & GANs",
+        "Speech & Audio Generation",
+        "AI Assistants & Autonomous Agents",
+        "Multimodal AI Systems",
+        "Generative AI APIs & Frameworks",
+        "Cloud-based AI Deployment",
+        "Real-time Generative AI Applications",
+        "AI Bias & Fairness",
+        "Privacy & Security Considerations",
+        "Adversarial Attacks & AI Safety",
+        "Responsible Use of Generative AI Systems"
+      ],
+      "subtopics": [
+        "Overview of Text Generation & Summarization",
+        "Overview of Conversational AI & Chatbots",
+        "Overview of AI Code Generation",
+        "Overview of Image Generation Models",
+        "Overview of Diffusion Models & GANs",
+        "Overview of Speech & Audio Generation",
+        "Overview of AI Assistants & Autonomous Agents",
+        "Overview of Multimodal AI Systems",
+        "Overview of Generative AI APIs & Frameworks",
+        "Overview of Cloud-based AI Deployment",
+        "Overview of Real-time Generative AI Applications",
+        "Overview of AI Bias & Fairness",
+        "Overview of Privacy & Security Considerations",
+        "Overview of Adversarial Attacks & AI Safety",
+        "Overview of Responsible Use of Generative AI Systems"
+      ],
+      "key_concepts": [
+        {
+          "name": "Text Generation & Summarization",
+          "description": "Core theoretical principle for Text Generation & Summarization."
+        },
+        {
+          "name": "Conversational AI & Chatbots",
+          "description": "Practical application guide for Conversational AI & Chatbots."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Text Generation & Summarization.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Text Generation & Summarization with Conversational AI & Chatbots.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in AI Code Generation.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Machine Learning",
+      "unit_number": 1,
+      "unit_title": "Unit 1: Unit 1: Machine Learning Advanced Concepts",
+      "topics": [
+        "Machine Learning Unit 1 Fundamentals",
+        "Machine Learning Unit 1 Core Theory",
+        "Machine Learning Unit 1 Optimization",
+        "Machine Learning Unit 1 Applications"
+      ],
+      "subtopics": [
+        "Overview of Machine Learning Unit 1 Fundamentals",
+        "Overview of Machine Learning Unit 1 Core Theory",
+        "Overview of Machine Learning Unit 1 Optimization",
+        "Overview of Machine Learning Unit 1 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Machine Learning Unit 1 Fundamentals",
+          "description": "Core theoretical principle for Machine Learning Unit 1 Fundamentals."
+        },
+        {
+          "name": "Machine Learning Unit 1 Core Theory",
+          "description": "Practical application guide for Machine Learning Unit 1 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Machine Learning Unit 1 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Machine Learning Unit 1 Fundamentals with Machine Learning Unit 1 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Machine Learning Unit 1 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Machine Learning",
+      "unit_number": 2,
+      "unit_title": "Unit 2: Unit 2: Machine Learning Advanced Concepts",
+      "topics": [
+        "Machine Learning Unit 2 Fundamentals",
+        "Machine Learning Unit 2 Core Theory",
+        "Machine Learning Unit 2 Optimization",
+        "Machine Learning Unit 2 Applications"
+      ],
+      "subtopics": [
+        "Overview of Machine Learning Unit 2 Fundamentals",
+        "Overview of Machine Learning Unit 2 Core Theory",
+        "Overview of Machine Learning Unit 2 Optimization",
+        "Overview of Machine Learning Unit 2 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Machine Learning Unit 2 Fundamentals",
+          "description": "Core theoretical principle for Machine Learning Unit 2 Fundamentals."
+        },
+        {
+          "name": "Machine Learning Unit 2 Core Theory",
+          "description": "Practical application guide for Machine Learning Unit 2 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Machine Learning Unit 2 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Machine Learning Unit 2 Fundamentals with Machine Learning Unit 2 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Machine Learning Unit 2 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Machine Learning",
+      "unit_number": 3,
+      "unit_title": "Unit 3: Unit 3: Machine Learning Advanced Concepts",
+      "topics": [
+        "Machine Learning Unit 3 Fundamentals",
+        "Machine Learning Unit 3 Core Theory",
+        "Machine Learning Unit 3 Optimization",
+        "Machine Learning Unit 3 Applications"
+      ],
+      "subtopics": [
+        "Overview of Machine Learning Unit 3 Fundamentals",
+        "Overview of Machine Learning Unit 3 Core Theory",
+        "Overview of Machine Learning Unit 3 Optimization",
+        "Overview of Machine Learning Unit 3 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Machine Learning Unit 3 Fundamentals",
+          "description": "Core theoretical principle for Machine Learning Unit 3 Fundamentals."
+        },
+        {
+          "name": "Machine Learning Unit 3 Core Theory",
+          "description": "Practical application guide for Machine Learning Unit 3 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Machine Learning Unit 3 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Machine Learning Unit 3 Fundamentals with Machine Learning Unit 3 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Machine Learning Unit 3 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Machine Learning",
+      "unit_number": 4,
+      "unit_title": "Unit 4: Unit 4: Machine Learning Advanced Concepts",
+      "topics": [
+        "Machine Learning Unit 4 Fundamentals",
+        "Machine Learning Unit 4 Core Theory",
+        "Machine Learning Unit 4 Optimization",
+        "Machine Learning Unit 4 Applications"
+      ],
+      "subtopics": [
+        "Overview of Machine Learning Unit 4 Fundamentals",
+        "Overview of Machine Learning Unit 4 Core Theory",
+        "Overview of Machine Learning Unit 4 Optimization",
+        "Overview of Machine Learning Unit 4 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Machine Learning Unit 4 Fundamentals",
+          "description": "Core theoretical principle for Machine Learning Unit 4 Fundamentals."
+        },
+        {
+          "name": "Machine Learning Unit 4 Core Theory",
+          "description": "Practical application guide for Machine Learning Unit 4 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Machine Learning Unit 4 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Machine Learning Unit 4 Fundamentals with Machine Learning Unit 4 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Machine Learning Unit 4 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Machine Learning",
+      "unit_number": 5,
+      "unit_title": "Unit 5: Unit 5: Machine Learning Advanced Concepts",
+      "topics": [
+        "Machine Learning Unit 5 Fundamentals",
+        "Machine Learning Unit 5 Core Theory",
+        "Machine Learning Unit 5 Optimization",
+        "Machine Learning Unit 5 Applications"
+      ],
+      "subtopics": [
+        "Overview of Machine Learning Unit 5 Fundamentals",
+        "Overview of Machine Learning Unit 5 Core Theory",
+        "Overview of Machine Learning Unit 5 Optimization",
+        "Overview of Machine Learning Unit 5 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Machine Learning Unit 5 Fundamentals",
+          "description": "Core theoretical principle for Machine Learning Unit 5 Fundamentals."
+        },
+        {
+          "name": "Machine Learning Unit 5 Core Theory",
+          "description": "Practical application guide for Machine Learning Unit 5 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Machine Learning Unit 5 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Machine Learning Unit 5 Fundamentals with Machine Learning Unit 5 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Machine Learning Unit 5 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "MLOps",
+      "unit_number": 1,
+      "unit_title": "Unit 1: Unit 1: MLOps Advanced Concepts",
+      "topics": [
+        "MLOps Unit 1 Fundamentals",
+        "MLOps Unit 1 Core Theory",
+        "MLOps Unit 1 Optimization",
+        "MLOps Unit 1 Applications"
+      ],
+      "subtopics": [
+        "Overview of MLOps Unit 1 Fundamentals",
+        "Overview of MLOps Unit 1 Core Theory",
+        "Overview of MLOps Unit 1 Optimization",
+        "Overview of MLOps Unit 1 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "MLOps Unit 1 Fundamentals",
+          "description": "Core theoretical principle for MLOps Unit 1 Fundamentals."
+        },
+        {
+          "name": "MLOps Unit 1 Core Theory",
+          "description": "Practical application guide for MLOps Unit 1 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of MLOps Unit 1 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast MLOps Unit 1 Fundamentals with MLOps Unit 1 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in MLOps Unit 1 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "MLOps",
+      "unit_number": 2,
+      "unit_title": "Unit 2: Unit 2: MLOps Advanced Concepts",
+      "topics": [
+        "MLOps Unit 2 Fundamentals",
+        "MLOps Unit 2 Core Theory",
+        "MLOps Unit 2 Optimization",
+        "MLOps Unit 2 Applications"
+      ],
+      "subtopics": [
+        "Overview of MLOps Unit 2 Fundamentals",
+        "Overview of MLOps Unit 2 Core Theory",
+        "Overview of MLOps Unit 2 Optimization",
+        "Overview of MLOps Unit 2 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "MLOps Unit 2 Fundamentals",
+          "description": "Core theoretical principle for MLOps Unit 2 Fundamentals."
+        },
+        {
+          "name": "MLOps Unit 2 Core Theory",
+          "description": "Practical application guide for MLOps Unit 2 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of MLOps Unit 2 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast MLOps Unit 2 Fundamentals with MLOps Unit 2 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in MLOps Unit 2 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "MLOps",
+      "unit_number": 3,
+      "unit_title": "Unit 3: Unit 3: MLOps Advanced Concepts",
+      "topics": [
+        "MLOps Unit 3 Fundamentals",
+        "MLOps Unit 3 Core Theory",
+        "MLOps Unit 3 Optimization",
+        "MLOps Unit 3 Applications"
+      ],
+      "subtopics": [
+        "Overview of MLOps Unit 3 Fundamentals",
+        "Overview of MLOps Unit 3 Core Theory",
+        "Overview of MLOps Unit 3 Optimization",
+        "Overview of MLOps Unit 3 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "MLOps Unit 3 Fundamentals",
+          "description": "Core theoretical principle for MLOps Unit 3 Fundamentals."
+        },
+        {
+          "name": "MLOps Unit 3 Core Theory",
+          "description": "Practical application guide for MLOps Unit 3 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of MLOps Unit 3 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast MLOps Unit 3 Fundamentals with MLOps Unit 3 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in MLOps Unit 3 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "MLOps",
+      "unit_number": 4,
+      "unit_title": "Unit 4: Unit 4: MLOps Advanced Concepts",
+      "topics": [
+        "MLOps Unit 4 Fundamentals",
+        "MLOps Unit 4 Core Theory",
+        "MLOps Unit 4 Optimization",
+        "MLOps Unit 4 Applications"
+      ],
+      "subtopics": [
+        "Overview of MLOps Unit 4 Fundamentals",
+        "Overview of MLOps Unit 4 Core Theory",
+        "Overview of MLOps Unit 4 Optimization",
+        "Overview of MLOps Unit 4 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "MLOps Unit 4 Fundamentals",
+          "description": "Core theoretical principle for MLOps Unit 4 Fundamentals."
+        },
+        {
+          "name": "MLOps Unit 4 Core Theory",
+          "description": "Practical application guide for MLOps Unit 4 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of MLOps Unit 4 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast MLOps Unit 4 Fundamentals with MLOps Unit 4 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in MLOps Unit 4 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "MLOps",
+      "unit_number": 5,
+      "unit_title": "Unit 5: Unit 5: MLOps Advanced Concepts",
+      "topics": [
+        "MLOps Unit 5 Fundamentals",
+        "MLOps Unit 5 Core Theory",
+        "MLOps Unit 5 Optimization",
+        "MLOps Unit 5 Applications"
+      ],
+      "subtopics": [
+        "Overview of MLOps Unit 5 Fundamentals",
+        "Overview of MLOps Unit 5 Core Theory",
+        "Overview of MLOps Unit 5 Optimization",
+        "Overview of MLOps Unit 5 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "MLOps Unit 5 Fundamentals",
+          "description": "Core theoretical principle for MLOps Unit 5 Fundamentals."
+        },
+        {
+          "name": "MLOps Unit 5 Core Theory",
+          "description": "Practical application guide for MLOps Unit 5 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of MLOps Unit 5 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast MLOps Unit 5 Fundamentals with MLOps Unit 5 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in MLOps Unit 5 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Cloud Computing & Application Development (CCAD)",
+      "unit_number": 1,
+      "unit_title": "Unit 1: Unit 1: Cloud Computing & Application Development (CCAD) Advanced Concepts",
+      "topics": [
+        "Cloud Computing & Application Development (CCAD) Unit 1 Fundamentals",
+        "Cloud Computing & Application Development (CCAD) Unit 1 Core Theory",
+        "Cloud Computing & Application Development (CCAD) Unit 1 Optimization",
+        "Cloud Computing & Application Development (CCAD) Unit 1 Applications"
+      ],
+      "subtopics": [
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 1 Fundamentals",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 1 Core Theory",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 1 Optimization",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 1 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 1 Fundamentals",
+          "description": "Core theoretical principle for Cloud Computing & Application Development (CCAD) Unit 1 Fundamentals."
+        },
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 1 Core Theory",
+          "description": "Practical application guide for Cloud Computing & Application Development (CCAD) Unit 1 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Cloud Computing & Application Development (CCAD) Unit 1 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Cloud Computing & Application Development (CCAD) Unit 1 Fundamentals with Cloud Computing & Application Development (CCAD) Unit 1 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Cloud Computing & Application Development (CCAD) Unit 1 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Cloud Computing & Application Development (CCAD)",
+      "unit_number": 2,
+      "unit_title": "Unit 2: Unit 2: Cloud Computing & Application Development (CCAD) Advanced Concepts",
+      "topics": [
+        "Cloud Computing & Application Development (CCAD) Unit 2 Fundamentals",
+        "Cloud Computing & Application Development (CCAD) Unit 2 Core Theory",
+        "Cloud Computing & Application Development (CCAD) Unit 2 Optimization",
+        "Cloud Computing & Application Development (CCAD) Unit 2 Applications"
+      ],
+      "subtopics": [
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 2 Fundamentals",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 2 Core Theory",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 2 Optimization",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 2 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 2 Fundamentals",
+          "description": "Core theoretical principle for Cloud Computing & Application Development (CCAD) Unit 2 Fundamentals."
+        },
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 2 Core Theory",
+          "description": "Practical application guide for Cloud Computing & Application Development (CCAD) Unit 2 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Cloud Computing & Application Development (CCAD) Unit 2 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Cloud Computing & Application Development (CCAD) Unit 2 Fundamentals with Cloud Computing & Application Development (CCAD) Unit 2 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Cloud Computing & Application Development (CCAD) Unit 2 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Cloud Computing & Application Development (CCAD)",
+      "unit_number": 3,
+      "unit_title": "Unit 3: Unit 3: Cloud Computing & Application Development (CCAD) Advanced Concepts",
+      "topics": [
+        "Cloud Computing & Application Development (CCAD) Unit 3 Fundamentals",
+        "Cloud Computing & Application Development (CCAD) Unit 3 Core Theory",
+        "Cloud Computing & Application Development (CCAD) Unit 3 Optimization",
+        "Cloud Computing & Application Development (CCAD) Unit 3 Applications"
+      ],
+      "subtopics": [
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 3 Fundamentals",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 3 Core Theory",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 3 Optimization",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 3 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 3 Fundamentals",
+          "description": "Core theoretical principle for Cloud Computing & Application Development (CCAD) Unit 3 Fundamentals."
+        },
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 3 Core Theory",
+          "description": "Practical application guide for Cloud Computing & Application Development (CCAD) Unit 3 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Cloud Computing & Application Development (CCAD) Unit 3 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Cloud Computing & Application Development (CCAD) Unit 3 Fundamentals with Cloud Computing & Application Development (CCAD) Unit 3 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Cloud Computing & Application Development (CCAD) Unit 3 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Cloud Computing & Application Development (CCAD)",
+      "unit_number": 4,
+      "unit_title": "Unit 4: Unit 4: Cloud Computing & Application Development (CCAD) Advanced Concepts",
+      "topics": [
+        "Cloud Computing & Application Development (CCAD) Unit 4 Fundamentals",
+        "Cloud Computing & Application Development (CCAD) Unit 4 Core Theory",
+        "Cloud Computing & Application Development (CCAD) Unit 4 Optimization",
+        "Cloud Computing & Application Development (CCAD) Unit 4 Applications"
+      ],
+      "subtopics": [
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 4 Fundamentals",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 4 Core Theory",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 4 Optimization",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 4 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 4 Fundamentals",
+          "description": "Core theoretical principle for Cloud Computing & Application Development (CCAD) Unit 4 Fundamentals."
+        },
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 4 Core Theory",
+          "description": "Practical application guide for Cloud Computing & Application Development (CCAD) Unit 4 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Cloud Computing & Application Development (CCAD) Unit 4 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Cloud Computing & Application Development (CCAD) Unit 4 Fundamentals with Cloud Computing & Application Development (CCAD) Unit 4 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Cloud Computing & Application Development (CCAD) Unit 4 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    },
+    {
+      "subject": "Cloud Computing & Application Development (CCAD)",
+      "unit_number": 5,
+      "unit_title": "Unit 5: Unit 5: Cloud Computing & Application Development (CCAD) Advanced Concepts",
+      "topics": [
+        "Cloud Computing & Application Development (CCAD) Unit 5 Fundamentals",
+        "Cloud Computing & Application Development (CCAD) Unit 5 Core Theory",
+        "Cloud Computing & Application Development (CCAD) Unit 5 Optimization",
+        "Cloud Computing & Application Development (CCAD) Unit 5 Applications"
+      ],
+      "subtopics": [
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 5 Fundamentals",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 5 Core Theory",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 5 Optimization",
+        "Overview of Cloud Computing & Application Development (CCAD) Unit 5 Applications"
+      ],
+      "key_concepts": [
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 5 Fundamentals",
+          "description": "Core theoretical principle for Cloud Computing & Application Development (CCAD) Unit 5 Fundamentals."
+        },
+        {
+          "name": "Cloud Computing & Application Development (CCAD) Unit 5 Core Theory",
+          "description": "Practical application guide for Cloud Computing & Application Development (CCAD) Unit 5 Core Theory."
+        }
+      ],
+      "important_questions": [
+        {
+          "question": "Explain the core mechanisms, equations, and applications of Cloud Computing & Application Development (CCAD) Unit 5 Fundamentals.",
+          "marks_category": 10,
+          "frequency": "High"
+        },
+        {
+          "question": "Compare and contrast Cloud Computing & Application Development (CCAD) Unit 5 Fundamentals with Cloud Computing & Application Development (CCAD) Unit 5 Core Theory.",
+          "marks_category": 5,
+          "frequency": "High"
+        },
+        {
+          "question": "Discuss key challenges and optimization strategies in Cloud Computing & Application Development (CCAD) Unit 5 Optimization.",
+          "marks_category": 10,
+          "frequency": "Medium"
+        }
+      ]
+    }
+  ],
+  "question_papers": [
+    {
+      "subject": "Cloud Computing & Application Development (CCAD)",
       "exam_name": "Internal Assessment 1",
       "ia_type": "IA 1",
       "unit_number": 1,
@@ -11,101 +1210,101 @@
         {
           "question_id": "Q1",
           "part": "Part A (2 Marks)",
-          "question": "What are two key advantages and limitations of using Multilayer Perceptron (MLP)?",
-          "topic": "Multilayer Perceptron (MLP)",
+          "question": "What does Cloud Computing & Application Development (CCAD) Unit 1 Concept 1 stand for, and what core function does it perform?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 1",
           "max_marks": 2,
           "unit_number": 1,
-          "pdf_answer": "Multilayer Perceptron (MLP) is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q2",
           "part": "Part A (2 Marks)",
-          "question": "What role does Perceptron Model perform in modern computational pipelines?",
-          "topic": "Perceptron Model",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 1 Concept 2 and what is its primary computational role in Cloud Computing & Application Development (CCAD)?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 2",
           "max_marks": 2,
           "unit_number": 1,
-          "pdf_answer": "Perceptron Model: Core theoretical principle for Perceptron Model."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q3",
           "part": "Part A (2 Marks)",
-          "question": "What is Gradient Descent? State the primary problem it addresses in Deep Learning.",
-          "topic": "Gradient Descent",
+          "question": "What does Cloud Computing & Application Development (CCAD) Unit 1 Concept 3 stand for, and what core function does it perform?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 3",
           "max_marks": 2,
           "unit_number": 1,
-          "pdf_answer": "Gradient Descent is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q4",
           "part": "Part A (2 Marks)",
-          "question": "What is meant by ResNet & Skip Connections, and what governing principles define it?",
-          "topic": "ResNet & Skip Connections",
+          "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 4?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 4",
           "max_marks": 2,
           "unit_number": 2,
-          "pdf_answer": "ResNet & Skip Connections is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 4 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q5",
           "part": "Part A (2 Marks)",
-          "question": "What role does CNN Architecture perform in modern computational pipelines?",
-          "topic": "CNN Architecture",
+          "question": "What does Cloud Computing & Application Development (CCAD) Unit 2 Concept 5 stand for, and what core function does it perform?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 5",
           "max_marks": 2,
           "unit_number": 2,
-          "pdf_answer": "CNN Architecture: Core theoretical principle for CNN Architecture."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 5 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q6a",
           "part": "Part B (12 Marks - Choice A)",
-          "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Multilayer Perceptron (MLP)? Critically evaluate its performance.",
-          "topic": "Multilayer Perceptron (MLP)",
+          "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 1 Concept 1? Critically evaluate its performance.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 1",
           "max_marks": 12,
           "unit_number": 1,
-          "pdf_answer": "Multilayer Perceptron (MLP) is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q6b",
           "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in Perceptron Model? Evaluate in detail.",
-          "topic": "Perceptron Model",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 1 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 1 Concept 2 with neat schematic diagrams.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 2",
           "max_marks": 12,
           "unit_number": 1,
-          "pdf_answer": "Perceptron Model: Core theoretical principle for Perceptron Model."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q7a",
           "part": "Part B (12 Marks - Choice A)",
-          "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in CNN Architecture? Evaluate in detail.",
-          "topic": "CNN Architecture",
+          "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 2 Concept 1? Critically evaluate its performance.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1",
           "max_marks": 12,
           "unit_number": 2,
-          "pdf_answer": "CNN Architecture: Core theoretical principle for CNN Architecture."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q7b",
           "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in AlexNet & VGG? Evaluate in detail.",
-          "topic": "AlexNet & VGG",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 2 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 with neat schematic diagrams.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2",
           "max_marks": 12,
           "unit_number": 2,
-          "pdf_answer": "AlexNet & VGG is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q8a",
           "part": "Part C (16 Marks - Choice A)",
-          "question": "What is the comprehensive computational architecture required to integrate Gradient Descent into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-          "topic": "Gradient Descent",
+          "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 1 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 3",
           "max_marks": 16,
           "unit_number": 1,
-          "pdf_answer": "Gradient Descent is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q8b",
           "part": "Part C (16 Marks - Choice B)",
-          "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Convolution & Pooling in an end-to-end production pipeline? Provide a detailed architecture and case study.",
-          "topic": "Convolution & Pooling",
+          "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3",
           "max_marks": 16,
           "unit_number": 2,
-          "pdf_answer": "Convolution & Pooling: Practical application guide for Convolution & Pooling."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         }
       ],
       "paper": {
@@ -113,47 +1312,47 @@
           {
             "question_id": "Q1",
             "part": "Part A (2 Marks)",
-            "question": "What are two key advantages and limitations of using Multilayer Perceptron (MLP)?",
-            "topic": "Multilayer Perceptron (MLP)",
+            "question": "What does Cloud Computing & Application Development (CCAD) Unit 1 Concept 1 stand for, and what core function does it perform?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 1",
             "max_marks": 2,
             "unit_number": 1,
-            "pdf_answer": "Multilayer Perceptron (MLP) is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q2",
             "part": "Part A (2 Marks)",
-            "question": "What role does Perceptron Model perform in modern computational pipelines?",
-            "topic": "Perceptron Model",
+            "question": "What is Cloud Computing & Application Development (CCAD) Unit 1 Concept 2 and what is its primary computational role in Cloud Computing & Application Development (CCAD)?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 2",
             "max_marks": 2,
             "unit_number": 1,
-            "pdf_answer": "Perceptron Model: Core theoretical principle for Perceptron Model."
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q3",
             "part": "Part A (2 Marks)",
-            "question": "What is Gradient Descent? State the primary problem it addresses in Deep Learning.",
-            "topic": "Gradient Descent",
+            "question": "What does Cloud Computing & Application Development (CCAD) Unit 1 Concept 3 stand for, and what core function does it perform?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 3",
             "max_marks": 2,
             "unit_number": 1,
-            "pdf_answer": "Gradient Descent is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q4",
             "part": "Part A (2 Marks)",
-            "question": "What is meant by ResNet & Skip Connections, and what governing principles define it?",
-            "topic": "ResNet & Skip Connections",
+            "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 4?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 4",
             "max_marks": 2,
             "unit_number": 2,
-            "pdf_answer": "ResNet & Skip Connections is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 4 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q5",
             "part": "Part A (2 Marks)",
-            "question": "What role does CNN Architecture perform in modern computational pipelines?",
-            "topic": "CNN Architecture",
+            "question": "What does Cloud Computing & Application Development (CCAD) Unit 2 Concept 5 stand for, and what core function does it perform?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 5",
             "max_marks": 2,
             "unit_number": 2,
-            "pdf_answer": "CNN Architecture: Core theoretical principle for CNN Architecture."
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 5 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           }
         ],
         "part_b": [
@@ -163,20 +1362,20 @@
             "option_a": {
               "question_id": "Q6a",
               "part": "Part B (12 Marks - Choice A)",
-              "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Multilayer Perceptron (MLP)? Critically evaluate its performance.",
-              "topic": "Multilayer Perceptron (MLP)",
+              "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 1 Concept 1? Critically evaluate its performance.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 1",
               "max_marks": 12,
               "unit_number": 1,
-              "pdf_answer": "Multilayer Perceptron (MLP) is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             },
             "option_b": {
               "question_id": "Q6b",
               "part": "Part B (12 Marks - Choice B)",
-              "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in Perceptron Model? Evaluate in detail.",
-              "topic": "Perceptron Model",
+              "question": "What is Cloud Computing & Application Development (CCAD) Unit 1 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 1 Concept 2 with neat schematic diagrams.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 2",
               "max_marks": 12,
               "unit_number": 1,
-              "pdf_answer": "Perceptron Model: Core theoretical principle for Perceptron Model."
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             }
           },
           {
@@ -185,20 +1384,20 @@
             "option_a": {
               "question_id": "Q7a",
               "part": "Part B (12 Marks - Choice A)",
-              "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in CNN Architecture? Evaluate in detail.",
-              "topic": "CNN Architecture",
+              "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 2 Concept 1? Critically evaluate its performance.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1",
               "max_marks": 12,
               "unit_number": 2,
-              "pdf_answer": "CNN Architecture: Core theoretical principle for CNN Architecture."
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             },
             "option_b": {
               "question_id": "Q7b",
               "part": "Part B (12 Marks - Choice B)",
-              "question": "What are the theoretical frameworks, parameter tuning dynamics, and deployment challenges in AlexNet & VGG? Evaluate in detail.",
-              "topic": "AlexNet & VGG",
+              "question": "What is Cloud Computing & Application Development (CCAD) Unit 2 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 with neat schematic diagrams.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2",
               "max_marks": 12,
               "unit_number": 2,
-              "pdf_answer": "AlexNet & VGG is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             }
           }
         ],
@@ -209,20 +1408,20 @@
             "option_a": {
               "question_id": "Q8a",
               "part": "Part C (16 Marks - Choice A)",
-              "question": "What is the comprehensive computational architecture required to integrate Gradient Descent into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-              "topic": "Gradient Descent",
+              "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 1 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 3",
               "max_marks": 16,
               "unit_number": 1,
-              "pdf_answer": "Gradient Descent is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 1 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             },
             "option_b": {
               "question_id": "Q8b",
               "part": "Part C (16 Marks - Choice B)",
-              "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Convolution & Pooling in an end-to-end production pipeline? Provide a detailed architecture and case study.",
-              "topic": "Convolution & Pooling",
+              "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3",
               "max_marks": 16,
               "unit_number": 2,
-              "pdf_answer": "Convolution & Pooling: Practical application guide for Convolution & Pooling."
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             }
           }
         ],
@@ -230,110 +1429,110 @@
       }
     },
     {
-      "subject": "Machine Learning",
-      "exam_name": "Internal Assessment 1",
-      "ia_type": "IA 1",
+      "subject": "Cloud Computing & Application Development (CCAD)",
+      "exam_name": "Internal Assessment 2",
+      "ia_type": "IA 2",
       "unit_number": 1,
       "total_marks": 50,
       "questions": [
         {
           "question_id": "Q1",
           "part": "Part A (2 Marks)",
-          "question": "What is Gradient Descent Weight Updates? State the primary problem it addresses in Machine Learning.",
-          "topic": "Gradient Descent Weight Updates",
+          "question": "What does Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 stand for, and what core function does it perform?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1",
           "max_marks": 2,
-          "unit_number": 1,
-          "pdf_answer": "Gradient Descent Weight Updates is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "unit_number": 2,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q2",
           "part": "Part A (2 Marks)",
-          "question": "What is meant by Linear Regression & OLS Cost Function? State its core objective.",
-          "topic": "Linear Regression & OLS Cost Function",
+          "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 2?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2",
           "max_marks": 2,
-          "unit_number": 1,
-          "pdf_answer": "Linear Regression & OLS Cost Function is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "unit_number": 2,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q3",
           "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in BiasVariance Tradeoff & Regularization?",
-          "topic": "BiasVariance Tradeoff & Regularization",
+          "question": "What does Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 stand for, and what core function does it perform?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3",
           "max_marks": 2,
-          "unit_number": 1,
-          "pdf_answer": "BiasVariance Tradeoff & Regularization is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "unit_number": 2,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q4",
           "part": "Part A (2 Marks)",
-          "question": "What are the primary operational steps involved in Machine Learning Unit 2 Concept 4?",
-          "topic": "Machine Learning Unit 2 Concept 4",
+          "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 4?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 4",
           "max_marks": 2,
           "unit_number": 2,
-          "pdf_answer": "Machine Learning Unit 2 Concept 4 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 4 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q5",
           "part": "Part A (2 Marks)",
-          "question": "What is Machine Learning Unit 2 Concept 5? State the primary problem it addresses in Machine Learning.",
-          "topic": "Machine Learning Unit 2 Concept 5",
+          "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 5?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 5",
           "max_marks": 2,
           "unit_number": 2,
-          "pdf_answer": "Machine Learning Unit 2 Concept 5 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 5 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q6a",
           "part": "Part B (12 Marks - Choice A)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Gradient Descent Weight Updates? Illustrate with clear diagrams.",
-          "topic": "Gradient Descent Weight Updates",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 1? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 with neat schematic diagrams.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1",
           "max_marks": 12,
-          "unit_number": 1,
-          "pdf_answer": "Gradient Descent Weight Updates is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q6b",
           "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Linear Regression & OLS Cost Function? Illustrate with clear diagrams.",
-          "topic": "Linear Regression & OLS Cost Function",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 with neat schematic diagrams.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2",
           "max_marks": 12,
-          "unit_number": 1,
-          "pdf_answer": "Linear Regression & OLS Cost Function is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q7a",
           "part": "Part B (12 Marks - Choice A)",
-          "question": "What is Machine Learning Unit 2 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-          "topic": "Machine Learning Unit 2 Concept 1",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 3? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 3 Concept 3 with neat schematic diagrams.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 3",
           "max_marks": 12,
-          "unit_number": 2,
-          "pdf_answer": "Machine Learning Unit 2 Concept 1 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q7b",
           "part": "Part B (12 Marks - Choice B)",
-          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Machine Learning Unit 2 Concept 2? Illustrate with clear diagrams.",
-          "topic": "Machine Learning Unit 2 Concept 2",
+          "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 3 Concept 4? Critically evaluate its performance.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 4",
           "max_marks": 12,
-          "unit_number": 2,
-          "pdf_answer": "Machine Learning Unit 2 Concept 2 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 4 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q8a",
           "part": "Part C (16 Marks - Choice A)",
-          "question": "What is the comprehensive computational architecture required to integrate BiasVariance Tradeoff & Regularization into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-          "topic": "BiasVariance Tradeoff & Regularization",
+          "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 3 Concept 5 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 5",
           "max_marks": 16,
-          "unit_number": 1,
-          "pdf_answer": "BiasVariance Tradeoff & Regularization is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 5 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         },
         {
           "question_id": "Q8b",
           "part": "Part C (16 Marks - Choice B)",
-          "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Machine Learning Unit 2 Concept 3 in an end-to-end production pipeline? Provide a detailed architecture and case study.",
-          "topic": "Machine Learning Unit 2 Concept 3",
+          "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 in an end-to-end production pipeline? Provide a detailed architecture and case study.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1",
           "max_marks": 16,
-          "unit_number": 2,
-          "pdf_answer": "Machine Learning Unit 2 Concept 3 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
         }
       ],
       "paper": {
@@ -341,47 +1540,47 @@
           {
             "question_id": "Q1",
             "part": "Part A (2 Marks)",
-            "question": "What is Gradient Descent Weight Updates? State the primary problem it addresses in Machine Learning.",
-            "topic": "Gradient Descent Weight Updates",
+            "question": "What does Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 stand for, and what core function does it perform?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1",
             "max_marks": 2,
-            "unit_number": 1,
-            "pdf_answer": "Gradient Descent Weight Updates is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "unit_number": 2,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q2",
             "part": "Part A (2 Marks)",
-            "question": "What is meant by Linear Regression & OLS Cost Function? State its core objective.",
-            "topic": "Linear Regression & OLS Cost Function",
+            "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 2?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2",
             "max_marks": 2,
-            "unit_number": 1,
-            "pdf_answer": "Linear Regression & OLS Cost Function is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "unit_number": 2,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q3",
             "part": "Part A (2 Marks)",
-            "question": "What are the primary operational steps involved in BiasVariance Tradeoff & Regularization?",
-            "topic": "BiasVariance Tradeoff & Regularization",
+            "question": "What does Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 stand for, and what core function does it perform?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3",
             "max_marks": 2,
-            "unit_number": 1,
-            "pdf_answer": "BiasVariance Tradeoff & Regularization is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "unit_number": 2,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q4",
             "part": "Part A (2 Marks)",
-            "question": "What are the primary operational steps involved in Machine Learning Unit 2 Concept 4?",
-            "topic": "Machine Learning Unit 2 Concept 4",
+            "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 4?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 4",
             "max_marks": 2,
             "unit_number": 2,
-            "pdf_answer": "Machine Learning Unit 2 Concept 4 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 4 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           },
           {
             "question_id": "Q5",
             "part": "Part A (2 Marks)",
-            "question": "What is Machine Learning Unit 2 Concept 5? State the primary problem it addresses in Machine Learning.",
-            "topic": "Machine Learning Unit 2 Concept 5",
+            "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 5?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 5",
             "max_marks": 2,
             "unit_number": 2,
-            "pdf_answer": "Machine Learning Unit 2 Concept 5 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 5 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
           }
         ],
         "part_b": [
@@ -391,20 +1590,20 @@
             "option_a": {
               "question_id": "Q6a",
               "part": "Part B (12 Marks - Choice A)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Gradient Descent Weight Updates? Illustrate with clear diagrams.",
-              "topic": "Gradient Descent Weight Updates",
+              "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 1? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 with neat schematic diagrams.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1",
               "max_marks": 12,
-              "unit_number": 1,
-              "pdf_answer": "Gradient Descent Weight Updates is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "unit_number": 3,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             },
             "option_b": {
               "question_id": "Q6b",
               "part": "Part B (12 Marks - Choice B)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Linear Regression & OLS Cost Function? Illustrate with clear diagrams.",
-              "topic": "Linear Regression & OLS Cost Function",
+              "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 with neat schematic diagrams.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2",
               "max_marks": 12,
-              "unit_number": 1,
-              "pdf_answer": "Linear Regression & OLS Cost Function is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "unit_number": 3,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             }
           },
           {
@@ -413,20 +1612,20 @@
             "option_a": {
               "question_id": "Q7a",
               "part": "Part B (12 Marks - Choice A)",
-              "question": "What is Machine Learning Unit 2 Concept 1? Derive the mathematical formulation and sequential algorithmic steps with a step-by-step example walkthrough.",
-              "topic": "Machine Learning Unit 2 Concept 1",
+              "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 3? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 3 Concept 3 with neat schematic diagrams.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 3",
               "max_marks": 12,
-              "unit_number": 2,
-              "pdf_answer": "Machine Learning Unit 2 Concept 1 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "unit_number": 3,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             },
             "option_b": {
               "question_id": "Q7b",
               "part": "Part B (12 Marks - Choice B)",
-              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Machine Learning Unit 2 Concept 2? Illustrate with clear diagrams.",
-              "topic": "Machine Learning Unit 2 Concept 2",
+              "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 3 Concept 4? Critically evaluate its performance.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 4",
               "max_marks": 12,
-              "unit_number": 2,
-              "pdf_answer": "Machine Learning Unit 2 Concept 2 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "unit_number": 3,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 4 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             }
           }
         ],
@@ -437,25 +1636,574 @@
             "option_a": {
               "question_id": "Q8a",
               "part": "Part C (16 Marks - Choice A)",
-              "question": "What is the comprehensive computational architecture required to integrate BiasVariance Tradeoff & Regularization into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
-              "topic": "BiasVariance Tradeoff & Regularization",
+              "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 3 Concept 5 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 5",
               "max_marks": 16,
-              "unit_number": 1,
-              "pdf_answer": "BiasVariance Tradeoff & Regularization is an essential technical concept in Machine Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "unit_number": 3,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 5 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             },
             "option_b": {
               "question_id": "Q8b",
               "part": "Part C (16 Marks - Choice B)",
-              "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Machine Learning Unit 2 Concept 3 in an end-to-end production pipeline? Provide a detailed architecture and case study.",
-              "topic": "Machine Learning Unit 2 Concept 3",
+              "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 in an end-to-end production pipeline? Provide a detailed architecture and case study.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1",
               "max_marks": 16,
-              "unit_number": 2,
-              "pdf_answer": "Machine Learning Unit 2 Concept 3 is an essential technical concept in Machine Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+              "unit_number": 3,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
             }
           }
         ],
         "total_marks": 50
       }
+    },
+    {
+      "subject": "Cloud Computing & Application Development (CCAD)",
+      "exam_name": "Internal Assessment 3 / Model Exam",
+      "ia_type": "IA 3",
+      "unit_number": 1,
+      "total_marks": 100,
+      "questions": [
+        {
+          "question_id": "Q1",
+          "part": "Part A (2 Marks)",
+          "question": "What is meant by Cloud Network Gateways, and what governing principles define it?",
+          "topic": "Cloud Network Gateways",
+          "max_marks": 2,
+          "unit_number": 1,
+          "pdf_answer": "Cloud Network Gateways is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q2",
+          "part": "Part A (2 Marks)",
+          "question": "What is meant by Virtualization & Hypervisor Architecture, and what governing principles define it?",
+          "topic": "Virtualization & Hypervisor Architecture",
+          "max_marks": 2,
+          "unit_number": 1,
+          "pdf_answer": "Virtualization & Hypervisor Architecture is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q3",
+          "part": "Part A (2 Marks)",
+          "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 1?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1",
+          "max_marks": 2,
+          "unit_number": 2,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q4",
+          "part": "Part A (2 Marks)",
+          "question": "What does Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 stand for, and what core function does it perform?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2",
+          "max_marks": 2,
+          "unit_number": 2,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q5",
+          "part": "Part A (2 Marks)",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 and what is its primary computational role in Cloud Computing & Application Development (CCAD)?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1",
+          "max_marks": 2,
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q6",
+          "part": "Part A (2 Marks)",
+          "question": "What does Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 stand for, and what core function does it perform?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2",
+          "max_marks": 2,
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q7",
+          "part": "Part A (2 Marks)",
+          "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 4 Concept 1?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 1",
+          "max_marks": 2,
+          "unit_number": 4,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q8",
+          "part": "Part A (2 Marks)",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 4 Concept 2 and what is its primary computational role in Cloud Computing & Application Development (CCAD)?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 2",
+          "max_marks": 2,
+          "unit_number": 4,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q9",
+          "part": "Part A (2 Marks)",
+          "question": "What does Cloud Computing & Application Development (CCAD) Unit 5 Concept 1 stand for, and what core function does it perform?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 1",
+          "max_marks": 2,
+          "unit_number": 5,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q10",
+          "part": "Part A (2 Marks)",
+          "question": "What does Cloud Computing & Application Development (CCAD) Unit 5 Concept 2 stand for, and what core function does it perform?",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 2",
+          "max_marks": 2,
+          "unit_number": 5,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q6a",
+          "part": "Part B (12 Marks - Choice A)",
+          "question": "What is Virtualization & Hypervisor Architecture? Explain the fundamental principles, mathematical equations, and end-to-end implementation with neat diagrams.",
+          "topic": "Virtualization & Hypervisor Architecture",
+          "max_marks": 12,
+          "unit_number": 1,
+          "pdf_answer": "Virtualization & Hypervisor Architecture is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q6b",
+          "part": "Part B (12 Marks - Choice B)",
+          "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Cloud Infrastructure Provisioning? Illustrate with clear diagrams.",
+          "topic": "Cloud Infrastructure Provisioning",
+          "max_marks": 12,
+          "unit_number": 1,
+          "pdf_answer": "Cloud Infrastructure Provisioning is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q7a",
+          "part": "Part B (12 Marks - Choice A)",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 2 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 with neat schematic diagrams.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2",
+          "max_marks": 12,
+          "unit_number": 2,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q7b",
+          "part": "Part B (12 Marks - Choice B)",
+          "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 2 Concept 3? Critically evaluate its performance.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3",
+          "max_marks": 12,
+          "unit_number": 2,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q8a",
+          "part": "Part B (12 Marks - Choice A)",
+          "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 3 Concept 2? Critically evaluate its performance.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2",
+          "max_marks": 12,
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q8b",
+          "part": "Part B (12 Marks - Choice B)",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 3? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 3 Concept 3 with neat schematic diagrams.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 3",
+          "max_marks": 12,
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q9a",
+          "part": "Part B (12 Marks - Choice A)",
+          "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 4 Concept 2? Critically evaluate its performance.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 2",
+          "max_marks": 12,
+          "unit_number": 4,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q9b",
+          "part": "Part B (12 Marks - Choice B)",
+          "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 4 Concept 3? Critically evaluate its performance.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 3",
+          "max_marks": 12,
+          "unit_number": 4,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q10a",
+          "part": "Part B (12 Marks - Choice A)",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 5 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 5 Concept 2 with neat schematic diagrams.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 2",
+          "max_marks": 12,
+          "unit_number": 5,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q10b",
+          "part": "Part B (12 Marks - Choice B)",
+          "question": "What is Cloud Computing & Application Development (CCAD) Unit 5 Concept 3? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 5 Concept 3 with neat schematic diagrams.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 3",
+          "max_marks": 12,
+          "unit_number": 5,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q11a",
+          "part": "Part C (16 Marks - Choice A)",
+          "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1",
+          "max_marks": 16,
+          "unit_number": 3,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        },
+        {
+          "question_id": "Q11b",
+          "part": "Part C (16 Marks - Choice B)",
+          "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 4 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+          "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 1",
+          "max_marks": 16,
+          "unit_number": 4,
+          "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+        }
+      ],
+      "paper": {
+        "part_a": [
+          {
+            "question_id": "Q1",
+            "part": "Part A (2 Marks)",
+            "question": "What is meant by Cloud Network Gateways, and what governing principles define it?",
+            "topic": "Cloud Network Gateways",
+            "max_marks": 2,
+            "unit_number": 1,
+            "pdf_answer": "Cloud Network Gateways is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q2",
+            "part": "Part A (2 Marks)",
+            "question": "What is meant by Virtualization & Hypervisor Architecture, and what governing principles define it?",
+            "topic": "Virtualization & Hypervisor Architecture",
+            "max_marks": 2,
+            "unit_number": 1,
+            "pdf_answer": "Virtualization & Hypervisor Architecture is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q3",
+            "part": "Part A (2 Marks)",
+            "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 2 Concept 1?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1",
+            "max_marks": 2,
+            "unit_number": 2,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q4",
+            "part": "Part A (2 Marks)",
+            "question": "What does Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 stand for, and what core function does it perform?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2",
+            "max_marks": 2,
+            "unit_number": 2,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q5",
+            "part": "Part A (2 Marks)",
+            "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 and what is its primary computational role in Cloud Computing & Application Development (CCAD)?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1",
+            "max_marks": 2,
+            "unit_number": 3,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q6",
+            "part": "Part A (2 Marks)",
+            "question": "What does Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 stand for, and what core function does it perform?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2",
+            "max_marks": 2,
+            "unit_number": 3,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q7",
+            "part": "Part A (2 Marks)",
+            "question": "What are two key advantages and limitations of using Cloud Computing & Application Development (CCAD) Unit 4 Concept 1?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 1",
+            "max_marks": 2,
+            "unit_number": 4,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q8",
+            "part": "Part A (2 Marks)",
+            "question": "What is Cloud Computing & Application Development (CCAD) Unit 4 Concept 2 and what is its primary computational role in Cloud Computing & Application Development (CCAD)?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 2",
+            "max_marks": 2,
+            "unit_number": 4,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q9",
+            "part": "Part A (2 Marks)",
+            "question": "What does Cloud Computing & Application Development (CCAD) Unit 5 Concept 1 stand for, and what core function does it perform?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 1",
+            "max_marks": 2,
+            "unit_number": 5,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          },
+          {
+            "question_id": "Q10",
+            "part": "Part A (2 Marks)",
+            "question": "What does Cloud Computing & Application Development (CCAD) Unit 5 Concept 2 stand for, and what core function does it perform?",
+            "topic": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 2",
+            "max_marks": 2,
+            "unit_number": 5,
+            "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+          }
+        ],
+        "part_b": [
+          {
+            "question_id": "Q6",
+            "choice": "Either/Or",
+            "unit_number": 1,
+            "option_a": {
+              "question_id": "Q6a",
+              "part": "Part B (12 Marks - Choice A)",
+              "question": "What is Virtualization & Hypervisor Architecture? Explain the fundamental principles, mathematical equations, and end-to-end implementation with neat diagrams.",
+              "topic": "Virtualization & Hypervisor Architecture",
+              "max_marks": 12,
+              "unit_number": 1,
+              "pdf_answer": "Virtualization & Hypervisor Architecture is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            },
+            "option_b": {
+              "question_id": "Q6b",
+              "part": "Part B (12 Marks - Choice B)",
+              "question": "What are the operational mechanics, failure modes, and convergence optimization techniques of Cloud Infrastructure Provisioning? Illustrate with clear diagrams.",
+              "topic": "Cloud Infrastructure Provisioning",
+              "max_marks": 12,
+              "unit_number": 1,
+              "pdf_answer": "Cloud Infrastructure Provisioning is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            }
+          },
+          {
+            "question_id": "Q7",
+            "choice": "Either/Or",
+            "unit_number": 2,
+            "option_a": {
+              "question_id": "Q7a",
+              "part": "Part B (12 Marks - Choice A)",
+              "question": "What is Cloud Computing & Application Development (CCAD) Unit 2 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 with neat schematic diagrams.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2",
+              "max_marks": 12,
+              "unit_number": 2,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            },
+            "option_b": {
+              "question_id": "Q7b",
+              "part": "Part B (12 Marks - Choice B)",
+              "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 2 Concept 3? Critically evaluate its performance.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3",
+              "max_marks": 12,
+              "unit_number": 2,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 2 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            }
+          },
+          {
+            "question_id": "Q8",
+            "choice": "Either/Or",
+            "unit_number": 3,
+            "option_a": {
+              "question_id": "Q8a",
+              "part": "Part B (12 Marks - Choice A)",
+              "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 3 Concept 2? Critically evaluate its performance.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2",
+              "max_marks": 12,
+              "unit_number": 3,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            },
+            "option_b": {
+              "question_id": "Q8b",
+              "part": "Part B (12 Marks - Choice B)",
+              "question": "What is Cloud Computing & Application Development (CCAD) Unit 3 Concept 3? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 3 Concept 3 with neat schematic diagrams.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 3",
+              "max_marks": 12,
+              "unit_number": 3,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            }
+          },
+          {
+            "question_id": "Q9",
+            "choice": "Either/Or",
+            "unit_number": 4,
+            "option_a": {
+              "question_id": "Q9a",
+              "part": "Part B (12 Marks - Choice A)",
+              "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 4 Concept 2? Critically evaluate its performance.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 2",
+              "max_marks": 12,
+              "unit_number": 4,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            },
+            "option_b": {
+              "question_id": "Q9b",
+              "part": "Part B (12 Marks - Choice B)",
+              "question": "What are the theoretical formulation, parameter updates, and optimization strategies for Cloud Computing & Application Development (CCAD) Unit 4 Concept 3? Critically evaluate its performance.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 3",
+              "max_marks": 12,
+              "unit_number": 4,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            }
+          },
+          {
+            "question_id": "Q10",
+            "choice": "Either/Or",
+            "unit_number": 5,
+            "option_a": {
+              "question_id": "Q10a",
+              "part": "Part B (12 Marks - Choice A)",
+              "question": "What is Cloud Computing & Application Development (CCAD) Unit 5 Concept 2? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 5 Concept 2 with neat schematic diagrams.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 2",
+              "max_marks": 12,
+              "unit_number": 5,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 2 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            },
+            "option_b": {
+              "question_id": "Q10b",
+              "part": "Part B (12 Marks - Choice B)",
+              "question": "What is Cloud Computing & Application Development (CCAD) Unit 5 Concept 3? Explain the detailed architectural design, layer operations, and information flow in Cloud Computing & Application Development (CCAD) Unit 5 Concept 3 with neat schematic diagrams.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 3",
+              "max_marks": 12,
+              "unit_number": 5,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 5 Concept 3 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 5). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            }
+          }
+        ],
+        "part_c": [
+          {
+            "question_id": "Q11",
+            "choice": "Either/Or",
+            "option_a": {
+              "question_id": "Q11a",
+              "part": "Part C (16 Marks - Choice A)",
+              "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1",
+              "max_marks": 16,
+              "unit_number": 3,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 3 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 3). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            },
+            "option_b": {
+              "question_id": "Q11b",
+              "part": "Part C (16 Marks - Choice B)",
+              "question": "What is the comprehensive computational architecture required to integrate Cloud Computing & Application Development (CCAD) Unit 4 Concept 1 into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+              "topic": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 1",
+              "max_marks": 16,
+              "unit_number": 4,
+              "pdf_answer": "Cloud Computing & Application Development (CCAD) Unit 4 Concept 1 is an essential technical concept in Cloud Computing & Application Development (CCAD) (Unit 4). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques."
+            }
+          }
+        ],
+        "total_marks": 100
+      }
+    },
+    {
+      "subject": "Deep Learning",
+      "exam_name": "Internal Assessment 1",
+      "unit_number": 1,
+      "questions": [
+        {
+          "max_marks": 2,
+          "part": "Part A (2 Marks)",
+          "pdf_answer": "Introduction to Neural Network: Core theoretical principle for Introduction to Neural Network.",
+          "question": "What is meant by Introduction to Neural Network, and what governing principles define it?",
+          "question_id": "Q1",
+          "topic": "Introduction to Neural Network",
+          "unit_number": 1
+        },
+        {
+          "max_marks": 2,
+          "part": "Part A (2 Marks)",
+          "pdf_answer": "Feed Forward Neural Nets: Practical application guide for Feed Forward Neural Nets.",
+          "question": "What is Feed Forward Neural Nets? State its theoretical significance in Deep Learning.",
+          "question_id": "Q2",
+          "topic": "Feed Forward Neural Nets",
+          "unit_number": 1
+        },
+        {
+          "max_marks": 2,
+          "part": "Part A (2 Marks)",
+          "pdf_answer": "Deep Learning Fundamentals is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
+          "question": "What is Deep Learning Fundamentals? State the primary problem it addresses in Deep Learning.",
+          "question_id": "Q3",
+          "topic": "Deep Learning Fundamentals",
+          "unit_number": 1
+        },
+        {
+          "max_marks": 2,
+          "part": "Part A (2 Marks)",
+          "pdf_answer": "Improving Performance of CNNs is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
+          "question": "What role does Improving Performance of CNNs perform in modern computational pipelines?",
+          "question_id": "Q4",
+          "topic": "Improving Performance of CNNs",
+          "unit_number": 2
+        },
+        {
+          "max_marks": 2,
+          "part": "Part A (2 Marks)",
+          "pdf_answer": "Multilevel Convolution is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
+          "question": "What is Multilevel Convolution? State the primary problem it addresses in Deep Learning.",
+          "question_id": "Q5",
+          "topic": "Multilevel Convolution",
+          "unit_number": 2
+        },
+        {
+          "max_marks": 12,
+          "part": "Part B (12 Marks - Choice A)",
+          "pdf_answer": "Introduction to Neural Network: Core theoretical principle for Introduction to Neural Network.",
+          "question": "What is Introduction to Neural Network? Explain the fundamental principles, mathematical equations, and end-to-end implementation with neat diagrams.",
+          "question_id": "Q6a",
+          "topic": "Introduction to Neural Network",
+          "unit_number": 1
+        },
+        {
+          "max_marks": 12,
+          "part": "Part B (12 Marks - Choice B)",
+          "pdf_answer": "Feed Forward Neural Nets: Practical application guide for Feed Forward Neural Nets.",
+          "question": "What is Feed Forward Neural Nets? Explain the fundamental principles, mathematical equations, and end-to-end implementation with neat diagrams.",
+          "question_id": "Q6b",
+          "topic": "Feed Forward Neural Nets",
+          "unit_number": 1
+        },
+        {
+          "max_marks": 12,
+          "part": "Part B (12 Marks - Choice A)",
+          "pdf_answer": "Convolutional Neural Networks: Core theoretical principle for Convolutional Neural Networks.",
+          "question": "What is Convolutional Neural Networks? Explain the fundamental principles, mathematical equations, and end-to-end implementation with neat diagrams.",
+          "question_id": "Q7a",
+          "topic": "Convolutional Neural Networks",
+          "unit_number": 2
+        },
+        {
+          "max_marks": 12,
+          "part": "Part B (12 Marks - Choice B)",
+          "pdf_answer": "Structure of Convolutional Network is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
+          "question": "What is Structure of Convolutional Network? Explain the fundamental principles, mathematical equations, and end-to-end implementation with neat diagrams.",
+          "question_id": "Q7b",
+          "topic": "Structure of Convolutional Network",
+          "unit_number": 2
+        },
+        {
+          "max_marks": 16,
+          "part": "Part C (16 Marks - Choice A)",
+          "pdf_answer": "Deep Learning Fundamentals is an essential technical concept in Deep Learning (Unit 1). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
+          "question": "What is the comprehensive computational architecture required to integrate Deep Learning Fundamentals into large-scale production? Discuss latency budgets, scalability, and monitoring metrics.",
+          "question_id": "Q8a",
+          "topic": "Deep Learning Fundamentals",
+          "unit_number": 1
+        },
+        {
+          "max_marks": 16,
+          "part": "Part C (16 Marks - Choice B)",
+          "pdf_answer": "Strides and Padding is an essential technical concept in Deep Learning (Unit 2). It encompasses fundamental governing equations, architectural components, operational algorithms, and parameter optimization techniques.",
+          "question": "What are the engineering challenges, parameter design choices, and failure mode mitigations when implementing Strides and Padding in an end-to-end production pipeline? Provide a detailed architecture and case study.",
+          "question_id": "Q8b",
+          "topic": "Strides and Padding",
+          "unit_number": 2
+        }
+      ]
     }
   ],
   "student_marks": [],
